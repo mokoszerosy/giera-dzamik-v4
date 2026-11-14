@@ -1,0 +1,8 @@
+[gd_resource type="Theme" format=3 uid="uid://c7jkub5lm1hl"]
+
+[ext_resource type="FontFile" uid="uid://cukrjku7u4g7o" path="res://Assets/pizza-tower-small.otf" id="1_wq7w1"]
+
+[resource]
+Button/constants/outline_size = 10
+Button/font_sizes/font_size = 40
+Button/fonts/font = ExtResource("1_wq7w1")

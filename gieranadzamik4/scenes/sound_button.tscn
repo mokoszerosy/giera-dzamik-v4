@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://d4bldso6tnsew"]
+
+[ext_resource type="Script" uid="uid://b76apq25t8u0m" path="res://scripts/sound_button.gd" id="1_x4peo"]
+
+[node name="SoundButton" type="Button" unique_id=310435706]
+offset_right = 480.0
+offset_bottom = 209.0
+text = "litwo ojczyzno moja"
+script = ExtResource("1_x4peo")
