@@ -6,6 +6,9 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5kn1w"]
 size = Vector2(16, 2.6666665)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_blocker"]
+size = Vector2(16, 32)
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gqjdf"]
 size = Vector2(16, 4.333333)
 
@@ -15,9 +18,11 @@ script = ExtResource("1_5kn1w")
 
 [node name="RestoreTimer" type="Timer" parent="." unique_id=1165719031]
 wait_time = 4.0
+one_shot = true
 
 [node name="DestroyTimer" type="Timer" parent="." unique_id=1412211821]
 wait_time = 3.0
+one_shot = true
 
 [node name="PlayerDetector" type="Area2D" parent="." unique_id=1640837232]
 
@@ -25,6 +30,13 @@ wait_time = 3.0
 position = Vector2(8, -1.3333334)
 scale = Vector2(0.875, 1)
 shape = SubResource("RectangleShape2D_5kn1w")
+
+[node name="SpawnBlocker" type="Area2D" parent="." unique_id=1578392044]
+
+[node name="BlockerCollision" type="CollisionShape2D" parent="SpawnBlocker" unique_id=1029384756]
+position = Vector2(8, 4)
+scale = Vector2(1.25, 1)
+shape = SubResource("RectangleShape2D_blocker")
 
 [node name="Collision" type="CollisionShape2D" parent="." unique_id=1894460135]
 position = Vector2(8, 2.3333333)
@@ -41,3 +53,5 @@ axis_stretch_vertical = 1
 [connection signal="timeout" from="DestroyTimer" to="." method="_disable_self"]
 [connection signal="body_entered" from="PlayerDetector" to="." method="_on_player_detector_body_entered"]
 [connection signal="body_exited" from="PlayerDetector" to="." method="_on_player_detector_body_exited"]
+[connection signal="body_entered" from="SpawnBlocker" to="." method="_on_spawn_blocker_body_entered"]
+[connection signal="body_exited" from="SpawnBlocker" to="." method="_on_spawn_blocker_body_exited"]
