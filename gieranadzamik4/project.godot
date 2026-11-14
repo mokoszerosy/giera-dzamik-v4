@@ -63,6 +63,7 @@ move_right={
 
 3d/physics_engine="Jolt Physics"
 2d/default_gravity=1500.2399999999998
+common/physics_interpolation=true
 
 [rendering]
 
