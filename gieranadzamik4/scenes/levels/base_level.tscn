@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://csdp0oxlcrt83"]
+
+[ext_resource type="Script" uid="uid://dl2braeufmvuf" path="res://scripts/base_level.gd" id="1_md458"]
+[ext_resource type="Texture2D" uid="uid://csto8r0llgmxg" path="res://icon.svg" id="2_uk53i"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_uk53i"]
+normal = Vector2(-1, 0)
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_md458"]
+normal = Vector2(1, 0)
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_gqjdf"]
+
+[node name="Main" type="Node2D" unique_id=1953884599 node_paths=PackedStringArray("spawn_point")]
+script = ExtResource("1_md458")
+spawn_point = NodePath("PlayerSpawnPoint")
+
+[node name="World" type="StaticBody2D" parent="." unique_id=1813218622]
+
+[node name="BorderRight" type="CollisionShape2D" parent="World" unique_id=469865482]
+position = Vector2(1670, 540)
+shape = SubResource("WorldBoundaryShape2D_uk53i")
+
+[node name="Sprite2D" type="Sprite2D" parent="World/BorderRight" unique_id=1716041128]
+scale = Vector2(0.265625, 8.53125)
+texture = ExtResource("2_uk53i")
+
+[node name="BorderLeft" type="CollisionShape2D" parent="World" unique_id=1488315717]
+position = Vector2(250, 540)
+shape = SubResource("WorldBoundaryShape2D_md458")
+
+[node name="Sprite2D" type="Sprite2D" parent="World/BorderLeft" unique_id=1089761230]
+scale = Vector2(0.265625, 8.53125)
+texture = ExtResource("2_uk53i")
+
+[node name="BorderBottom" type="CollisionShape2D" parent="World" unique_id=120318073]
+position = Vector2(948, 1000)
+shape = SubResource("WorldBoundaryShape2D_gqjdf")
+
+[node name="Sprite2D" type="Sprite2D" parent="World/BorderBottom" unique_id=790401919]
+rotation = 1.5707964
+scale = Vector2(0.265625, 11.33125)
+texture = ExtResource("2_uk53i")
+
+[node name="PlayerSpawnPoint" type="Marker2D" parent="." unique_id=630531347]
+position = Vector2(960, 540)
