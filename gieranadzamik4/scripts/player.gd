@@ -3,6 +3,7 @@ extends CharacterBody2D
 
 @onready var anim_sprite: AnimatedSprite2D = $AnimSprite
 @export var horizontal_speed := 350.0
+@export var grounded_horizontal_speed := 500.0
 @export var jump_velocity := -400.0
 var gravity: float = ProjectSettings.get_setting("physics/2d/default_gravity")
 var last_collided_with: Dictionary[Object, Object] = {}
@@ -24,7 +25,10 @@ func apply_movement_inputs():
 	
 	var direction := Input.get_axis("move_left", "move_right")
 	if direction:
-		velocity.x = direction * horizontal_speed
+		if is_on_floor():
+			velocity.x = direction * grounded_horizontal_speed
+		else:
+			velocity.x = direction * horizontal_speed
 		anim_sprite.play("run_left")
 		if direction > 0:
 			anim_sprite.flip_h = true
