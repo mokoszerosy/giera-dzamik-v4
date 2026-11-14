@@ -23,6 +23,7 @@ wait_time = 3.0
 
 [node name="DetectorCollision" type="CollisionShape2D" parent="PlayerDetector" unique_id=246291860]
 position = Vector2(8, -1.3333334)
+scale = Vector2(0.875, 1)
 shape = SubResource("RectangleShape2D_5kn1w")
 
 [node name="Collision" type="CollisionShape2D" parent="." unique_id=1894460135]

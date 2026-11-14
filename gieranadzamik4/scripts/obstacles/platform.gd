@@ -50,7 +50,7 @@ func _set_width() -> void:
 	collision.position.x = width * 8
 	collision.scale.x = width
 	detector_collision.position.x = width * 8
-	detector_collision.scale.x = width
+	detector_collision.scale.x = width - 2.0/16.0
 
 func _set_one_way() -> void:
 	if not is_node_ready():
