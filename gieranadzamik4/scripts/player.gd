@@ -2,7 +2,7 @@ class_name Player
 extends CharacterBody2D
 
 @onready var anim_sprite: AnimatedSprite2D = $AnimSprite
-@export var horizontal_speed := 250.0
+@export var horizontal_speed := 350.0
 @export var jump_velocity := -400.0
 var gravity: float = ProjectSettings.get_setting("physics/2d/default_gravity")
 var last_collided_with: Dictionary[Object, Object] = {}

@@ -4,14 +4,14 @@
 [ext_resource type="Texture2D" uid="uid://csto8r0llgmxg" path="res://icon.svg" id="2_wv4eh"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_hk3cl"]
-radius = 85.00588
+radius = 61.204575
 
 [node name="PuffBall" type="Area2D" unique_id=1571602283]
 script = ExtResource("1_j743o")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1251515791]
 position = Vector2(-0.50000143, 2.3841858e-06)
-scale = Vector2(0.998, 1.006)
+scale = Vector2(0.708, 0.716)
 texture = ExtResource("2_wv4eh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=886671427]

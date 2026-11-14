@@ -27,7 +27,7 @@ grow_vertical = 2
 [node name="SoundButton" parent="VBoxContainer" unique_id=310435706 instance=ExtResource("1_l6cm7")]
 layout_mode = 2
 text = "Play"
-transfer = "res://scenes/levels/base_level.tscn"
+transfer = "res://scenes/levels/level_1.tscn"
 
 [node name="SoundButton2" parent="VBoxContainer" unique_id=449613381 instance=ExtResource("1_l6cm7")]
 layout_mode = 2

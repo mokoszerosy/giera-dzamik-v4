@@ -107,7 +107,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gqjdf"]
-size = Vector2(88, 104)
+size = Vector2(84, 101)
 
 [node name="Player" type="CharacterBody2D" unique_id=1353136037]
 texture_filter = 1
@@ -120,5 +120,10 @@ autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1267157351]
 texture_filter = 1
-position = Vector2(0, 17)
+position = Vector2(0, 15.5)
 shape = SubResource("RectangleShape2D_gqjdf")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=934476803]
+position_smoothing_enabled = true
+position_smoothing_speed = 4.43
+drag_horizontal_enabled = true
