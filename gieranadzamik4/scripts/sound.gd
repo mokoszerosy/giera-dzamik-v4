@@ -14,5 +14,20 @@ func play_bounce(pitch: float):
 	$BounceSound.pitch_scale = pitch
 	$BounceSound.play(8.76)
 
+func play_falling_rocks():
+	$FallingRoksAmbient.stop()
+	$FallingRocksSound.play()
+
+func play_falling_rocks_ambient():
+	$FallingRoksAmbient.play()
+
 func play_jump():
-	pass
+	$JumpSound.pitch_scale = randf_range(0.75, 1.5)
+	$JumpSound.play()
+	
+func play_land():
+	$StepSound.pitch_scale = 3.0
+	$StepSound.play(18.5)
+
+func play_slime():
+	$SlimeSound.play()

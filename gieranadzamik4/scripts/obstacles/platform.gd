@@ -79,6 +79,7 @@ func _on_player_detector_body_entered(body: Node2D) -> void:
 		return
 	has_player = true
 	if destroy_timer.is_stopped():
+		Sound.play_falling_rocks_ambient()
 		destroy_timer.start()
 
 func _on_player_detector_body_exited(body: Node2D) -> void:
@@ -105,6 +106,7 @@ func _disable_self():
 	collision.set_deferred("disabled", true)
 	detector_collision.set_deferred("disabled", true)
 	restore_timer.start()
+	Sound.play_falling_rocks()
 
 func _enable_self():
 	if player_nearby:

@@ -10,11 +10,13 @@ extends CharacterBody2D
 var gravity: float = ProjectSettings.get_setting("physics/2d/default_gravity")
 var last_collided_with: Dictionary[Object, Object] = {}
 var last_floor_height: float = 0.0
+var is_airborne: bool = false
 
 var movement_ease_in: float = 0.0
 
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():
+		is_airborne = true
 		velocity.y += gravity * delta
 
 	apply_movement_inputs()
@@ -26,6 +28,7 @@ func _physics_process(delta: float) -> void:
 func apply_movement_inputs():
 	if Input.is_action_pressed("jump") and is_on_floor():
 		velocity.y = jump_velocity
+		Sound.play_jump()
 	
 	var direction := Input.get_axis("move_left", "move_right")
 	if direction:
@@ -70,6 +73,9 @@ func do_bounces(old_velocity: Vector2):
 			if is_on_floor():
 				last_collided_with.clear()
 				last_floor_height = collision.get_position().y
+				if is_airborne:
+					Sound.play_land()
+					is_airborne = false
 			continue
 		first_time = first_time or not collider in last_collided_with
 		last_collided_with[collider] = null
