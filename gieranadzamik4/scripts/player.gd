@@ -21,12 +21,18 @@ func _physics_process(delta: float) -> void:
 func apply_movement_inputs():
 	if Input.is_action_pressed("jump") and is_on_floor():
 		velocity.y = jump_velocity
-
+	
 	var direction := Input.get_axis("move_left", "move_right")
 	if direction:
 		velocity.x = direction * horizontal_speed
+		anim_sprite.play("run_left")
+		if direction > 0:
+			anim_sprite.flip_h = true
+		else:
+			anim_sprite.flip_h = false
 	else:
 		velocity.x = move_toward(velocity.x, 0, horizontal_speed)
+		anim_sprite.play("idle")
 
 func do_bounces(old_velocity: Vector2):
 	var normal = Vector2()

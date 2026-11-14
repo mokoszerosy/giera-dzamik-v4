@@ -30,7 +30,7 @@ position = Vector2(480, 96)
 width = 4
 
 [node name="Platform8" parent="." index="7" unique_id=1201461312 instance=ExtResource("2_6iamk")]
-position = Vector2(1056, -480)
+position = Vector2(1152, -480)
 width = 2
 
 [node name="Platform11" parent="." index="8" unique_id=691514647 instance=ExtResource("2_6iamk")]
@@ -44,7 +44,7 @@ width = 3
 
 [node name="Platform13" parent="." index="10" unique_id=1101787628 instance=ExtResource("2_6iamk")]
 position = Vector2(384, -1728)
-width = 4
+width = 6
 
 [node name="Platform14" parent="." index="11" unique_id=1430473119 instance=ExtResource("2_6iamk")]
 position = Vector2(1344, -2304)
