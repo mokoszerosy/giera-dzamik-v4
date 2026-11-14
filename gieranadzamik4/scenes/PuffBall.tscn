@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bub8jl24js3la"]
+
+[ext_resource type="Script" uid="uid://su8nnba41hxf" path="res://scripts/puff_ball.gd" id="1_j743o"]
+[ext_resource type="Texture2D" uid="uid://csto8r0llgmxg" path="res://icon.svg" id="2_wv4eh"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hk3cl"]
+radius = 33.06055
+
+[node name="PuffBall" type="Area2D" unique_id=1571602283]
+script = ExtResource("1_j743o")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1251515791]
+position = Vector2(-0.50000143, 2.3841858e-06)
+scale = Vector2(0.5078125, 0.515625)
+texture = ExtResource("2_wv4eh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=886671427]
+shape = SubResource("CircleShape2D_hk3cl")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
