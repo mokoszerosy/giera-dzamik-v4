@@ -7,9 +7,6 @@
 
 [node name="Main" unique_id=1953884599 instance=ExtResource("1_ksju7")]
 
-[node name="PlayerSpawnPoint" parent="." index="1" unique_id=630531347]
-position = Vector2(1728, 768)
-
 [node name="Platform" parent="." index="2" unique_id=9970019 instance=ExtResource("2_6iamk")]
 position = Vector2(1536, 864.00006)
 width = 4
@@ -37,7 +34,6 @@ width = 3
 [node name="Platform11" parent="." index="8" unique_id=691514647 instance=ExtResource("2_6iamk")]
 position = Vector2(384, -192)
 width = 5
-one_way = true
 
 [node name="Platform12" parent="." index="9" unique_id=459776253 instance=ExtResource("2_6iamk")]
 position = Vector2(672, -1056)
@@ -68,10 +64,13 @@ width = 10
 position = Vector2(1056, -2400)
 width = 9
 
+[node name="PlayerSpawnPoint" parent="." index="17" unique_id=630531347]
+position = Vector2(1728, 768)
+
 [node name="CollisionShape2D" parent="FinishActivationArea" parent_id_path=PackedInt32Array(2042148574) index="0" unique_id=1287311650]
 position = Vector2(1104, -2641)
 
-[node name="FinishGroup" parent="." index="18" unique_id=326366397]
+[node name="FinishGroup" parent="." index="19" unique_id=326366397]
 position = Vector2(1040, -2889)
 
 [node name="FinishDoorLeft" parent="FinishGroup" index="0" unique_id=1602043082]
