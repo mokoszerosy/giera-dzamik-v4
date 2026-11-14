@@ -6,69 +6,69 @@
 
 [node name="Main" unique_id=1953884599 instance=ExtResource("1_ksju7")]
 
-[node name="Platform" parent="World" parent_id_path=PackedInt32Array(1813218622) index="4" unique_id=9970019 instance=ExtResource("2_6iamk")]
+[node name="PlayerSpawnPoint" parent="." index="1" unique_id=630531347]
+position = Vector2(1104, 828)
+
+[node name="Platform" parent="." index="2" unique_id=9970019 instance=ExtResource("2_6iamk")]
 position = Vector2(1008, 923)
 width = 6
 
-[node name="Platform2" parent="World" parent_id_path=PackedInt32Array(1813218622) index="5" unique_id=544285141 instance=ExtResource("2_6iamk")]
-position = Vector2(288, 827.00006)
+[node name="Platform2" parent="." index="3" unique_id=544285141 instance=ExtResource("2_6iamk")]
+position = Vector2(96, 768)
 width = 8
 
-[node name="Platform3" parent="World" parent_id_path=PackedInt32Array(1813218622) index="6" unique_id=2140045463 instance=ExtResource("2_6iamk")]
-position = Vector2(1008, 731)
+[node name="Platform3" parent="." index="4" unique_id=2140045463 instance=ExtResource("2_6iamk")]
+position = Vector2(1728, 672)
 width = 4
 
-[node name="Platform4" parent="World" parent_id_path=PackedInt32Array(1813218622) index="7" unique_id=1678441396 instance=ExtResource("2_6iamk")]
-position = Vector2(432, 635)
+[node name="Platform4" parent="." index="5" unique_id=1678441396 instance=ExtResource("2_6iamk")]
+position = Vector2(288, 480)
 width = 3
 
-[node name="PuffBall" parent="World" parent_id_path=PackedInt32Array(1813218622) index="8" unique_id=1571602283 instance=ExtResource("3_nsrm0")]
+[node name="World#PuffBall" parent="." index="6" unique_id=1571602283 instance=ExtResource("3_nsrm0")]
 position = Vector2(768, 443)
 
-[node name="Platform5" parent="World" parent_id_path=PackedInt32Array(1813218622) index="9" unique_id=1464969992 instance=ExtResource("2_6iamk")]
+[node name="Platform5" parent="." index="7" unique_id=1464969992 instance=ExtResource("2_6iamk")]
 position = Vector2(816, 347)
 width = 2
 
-[node name="Platform6" parent="World" parent_id_path=PackedInt32Array(1813218622) index="10" unique_id=1718461071 instance=ExtResource("2_6iamk")]
+[node name="Platform6" parent="." index="8" unique_id=1718461071 instance=ExtResource("2_6iamk")]
 position = Vector2(288, 107)
 width = 6
 
-[node name="Platform7" parent="World" parent_id_path=PackedInt32Array(1813218622) index="11" unique_id=954711826 instance=ExtResource("2_6iamk")]
+[node name="Platform7" parent="." index="9" unique_id=954711826 instance=ExtResource("2_6iamk")]
 position = Vector2(576, 107)
 one_way = true
 
-[node name="Platform8" parent="World" parent_id_path=PackedInt32Array(1813218622) index="12" unique_id=1201461312 instance=ExtResource("2_6iamk")]
+[node name="Platform8" parent="." index="10" unique_id=1201461312 instance=ExtResource("2_6iamk")]
 position = Vector2(1008, -277)
 width = 6
 
-[node name="Platform9" parent="World" parent_id_path=PackedInt32Array(1813218622) index="13" unique_id=1099097590 instance=ExtResource("2_6iamk")]
+[node name="Platform9" parent="." index="11" unique_id=1099097590 instance=ExtResource("2_6iamk")]
 position = Vector2(624, 59)
 one_way = true
 
-[node name="Platform10" parent="World" parent_id_path=PackedInt32Array(1813218622) index="14" unique_id=440417111 instance=ExtResource("2_6iamk")]
+[node name="Platform10" parent="." index="12" unique_id=440417111 instance=ExtResource("2_6iamk")]
 position = Vector2(672, 11)
 one_way = true
 
-[node name="Platform11" parent="World" parent_id_path=PackedInt32Array(1813218622) index="15" unique_id=691514647 instance=ExtResource("2_6iamk")]
+[node name="Platform11" parent="." index="13" unique_id=691514647 instance=ExtResource("2_6iamk")]
 position = Vector2(432, -565)
 width = 6
 one_way = true
 
-[node name="Platform12" parent="World" parent_id_path=PackedInt32Array(1813218622) index="16" unique_id=459776253 instance=ExtResource("2_6iamk")]
+[node name="Platform12" parent="." index="14" unique_id=459776253 instance=ExtResource("2_6iamk")]
 position = Vector2(912, -853)
 width = 3
 disappearing = true
 
-[node name="Platform13" parent="World" parent_id_path=PackedInt32Array(1813218622) index="17" unique_id=1101787628 instance=ExtResource("2_6iamk")]
+[node name="Platform13" parent="." index="15" unique_id=1101787628 instance=ExtResource("2_6iamk")]
 position = Vector2(288, -1045)
 width = 9
 
-[node name="Platform14" parent="World" parent_id_path=PackedInt32Array(1813218622) index="18" unique_id=1430473119 instance=ExtResource("2_6iamk")]
+[node name="Platform14" parent="." index="16" unique_id=1430473119 instance=ExtResource("2_6iamk")]
 position = Vector2(864, -1045)
 width = 9
 
-[node name="PuffBall2" parent="World" parent_id_path=PackedInt32Array(1813218622) index="19" unique_id=115226323 instance=ExtResource("3_nsrm0")]
+[node name="World#PuffBall2" parent="." index="17" unique_id=115226323 instance=ExtResource("3_nsrm0")]
 position = Vector2(788, -1237)
-
-[node name="PlayerSpawnPoint" parent="." index="2" unique_id=630531347]
-position = Vector2(1104, 828)
