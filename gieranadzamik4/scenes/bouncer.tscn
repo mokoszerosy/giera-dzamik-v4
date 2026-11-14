@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://nd57l21qgghc"]
+
+[ext_resource type="Script" uid="uid://cgnguqmshj3mi" path="res://scripts/bouncer.gd" id="1_q2nta"]
+[ext_resource type="Texture2D" uid="uid://csto8r0llgmxg" path="res://icon.svg" id="2_f4kas"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gqjdf"]
+
+[node name="Bouncer" type="StaticBody2D" unique_id=537675923 groups=["bouncers"]]
+script = ExtResource("1_q2nta")
+
+[node name="BouncerShape" type="CollisionShape2D" parent="." unique_id=838313544]
+scale = Vector2(19, 1)
+shape = SubResource("RectangleShape2D_gqjdf")
+
+[node name="Sprite" type="Sprite2D" parent="." unique_id=1936406710]
+modulate = Color(0, 1, 0.45000005, 1)
+scale = Vector2(3.0153599, 0.15938108)
+texture = ExtResource("2_f4kas")
