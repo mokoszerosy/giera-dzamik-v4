@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://qqf6ul25ercc"]
+
+[ext_resource type="PackedScene" uid="uid://csdp0oxlcrt83" path="res://scenes/levels/base_level.tscn" id="1_3bmlt"]
+[ext_resource type="PackedScene" uid="uid://ch0wqvmo3e4y" path="res://scenes/obstacles/platform.tscn" id="2_jm1iu"]
+
+[node name="Main" unique_id=1953884599 instance=ExtResource("1_3bmlt")]
+
+[node name="PlayerSpawnPoint" parent="." index="1" unique_id=630531347]
+position = Vector2(1920, 768)
+
+[node name="Platform" parent="." index="2" unique_id=9970019 instance=ExtResource("2_jm1iu")]
+position = Vector2(1632, 864)
+width = 5
