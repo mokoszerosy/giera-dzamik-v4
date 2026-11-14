@@ -1,0 +1,45 @@
+[gd_scene format=4 uid="uid://cntim20yebqiy"]
+
+[ext_resource type="TileSet" uid="uid://dbck27nwj4byp" path="res://assets/sprites/tilesets/terrain_tile_set.tres" id="1_4c2gi"]
+[ext_resource type="Script" uid="uid://daqetmtm1krwj" path="res://scripts/finish_door.gd" id="1_fe1pc"]
+[ext_resource type="FontFile" uid="uid://cukrjku7u4g7o" path="res://assets/pizza-tower-small.otf" id="3_6l350"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gqjdf"]
+size = Vector2(199, 192)
+
+[node name="FinishDoor" type="Node2D" unique_id=1602043082]
+script = ExtResource("1_fe1pc")
+
+[node name="TileMap" type="TileMapLayer" parent="." unique_id=1340370655]
+scale = Vector2(6, 6)
+tile_map_data = PackedByteArray("AAD//wAAAAABAAkAAAAAAAAAAAABAAkAAAABAAAAAAACAAkAAAD+/wAAAAAAAAkAAAD+////AAAAAAgAAAABAP//AAACAAgAAAAAAP//AAABAAgAAAD/////AAABAAgAAAD+/wEAAAAAAAkAAAABAAEAAAACAAkAAAD//wEAAAABAAkAAAAAAAEAAAABAAkAAAA=")
+tile_set = ExtResource("1_4c2gi")
+collision_enabled = false
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1367017236]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=946050752]
+position = Vector2(0.5, 95)
+shape = SubResource("RectangleShape2D_gqjdf")
+
+[node name="Label" type="Label" parent="." unique_id=1486625369]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -172.0
+offset_top = -58.0
+offset_right = 172.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("3_6l350")
+theme_override_font_sizes/font_size = 36
+text = "LORE MIPSU"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_body_exited"]
