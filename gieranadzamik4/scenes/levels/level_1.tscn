@@ -66,3 +66,7 @@ width = 10
 [node name="Platform16" parent="." index="16" unique_id=1365367823 instance=ExtResource("2_6iamk")]
 position = Vector2(1056, -2592)
 width = 9
+
+[node name="Platform7" parent="." index="17" unique_id=1224039924 instance=ExtResource("2_6iamk")]
+position = Vector2(1440, 96)
+width = 3
