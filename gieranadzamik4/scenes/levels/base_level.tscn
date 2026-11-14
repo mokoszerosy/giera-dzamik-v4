@@ -326,6 +326,9 @@ rotation = 1.5707964
 scale = Vector2(0.265625, 11.33125)
 texture = ExtResource("2_uk53i")
 
+[node name="Bouncer" parent="World" unique_id=537675923 instance=ExtResource("3_ukglk")]
+position = Vector2(642, 962)
+
 [node name="PlayerSpawnPoint" type="Marker2D" parent="." unique_id=630531347]
 position = Vector2(960, 540)
 
