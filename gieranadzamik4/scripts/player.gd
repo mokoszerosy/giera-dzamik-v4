@@ -44,7 +44,7 @@ func apply_movement_inputs():
 		 	Tween.TRANS_QUINT,
 			Tween.EASE_IN
 			)
-		anim_sprite.play("run_left")
+			
 		if direction > 0:
 			anim_sprite.play("run_right")
 			anim_sprite.flip_h = true
