@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://qqf6ul25ercc"]
+
+[ext_resource type="PackedScene" uid="uid://csdp0oxlcrt83" path="res://scenes/levels/base_level.tscn" id="1_g2h2n"]
+[ext_resource type="PackedScene" uid="uid://ch0wqvmo3e4y" path="res://scenes/obstacles/platform.tscn" id="2_ra442"]
+
+[node name="Main" unique_id=1953884599 instance=ExtResource("1_g2h2n")]
+
+[node name="PlayerSpawnPoint" parent="." index="1" unique_id=630531347]
+position = Vector2(1920, 768)
+
+[node name="Platform" parent="." index="2" unique_id=9970019 instance=ExtResource("2_ra442")]
+position = Vector2(1632, 864)
+width = 5
+
+[node name="Platform15" parent="." index="3" unique_id=228066099 instance=ExtResource("2_ra442")]
+position = Vector2(96, -2592)
+width = 10
+
+[node name="Platform16" parent="." index="4" unique_id=1764703133 instance=ExtResource("2_ra442")]
+position = Vector2(1056, -2592)
+width = 9
+
+[node name="Platform2" parent="." index="5" unique_id=1117191071 instance=ExtResource("2_ra442")]
+position = Vector2(672, 672)
+width = 5
+disappearing = true
