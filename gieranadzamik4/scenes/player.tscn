@@ -25,18 +25,30 @@
 [ext_resource type="Texture2D" uid="uid://cwtid6w12g6fe" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0021.png" id="23_holxr"]
 [ext_resource type="Texture2D" uid="uid://cddpa0hs83gem" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0022.png" id="24_mx1m4"]
 [ext_resource type="Texture2D" uid="uid://d1bou4h0drgb2" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0023.png" id="25_4gjji"]
-[ext_resource type="Texture2D" uid="uid://dxjlfwwx0pkcg" path="res://assets/sprites/player/playeranimations/runningplayer/runninganimation0000.png" id="26_hax0n"]
-[ext_resource type="Texture2D" uid="uid://deb7quus72t64" path="res://assets/sprites/player/playeranimations/runningplayer/runninganimation0001.png" id="27_t4otl"]
-[ext_resource type="Texture2D" uid="uid://dfse0x8neilto" path="res://assets/sprites/player/playeranimations/runningplayer/runninganimation0002.png" id="28_j2b1d"]
-[ext_resource type="Texture2D" uid="uid://8tnpb1x6p323" path="res://assets/sprites/player/playeranimations/runningplayer/runninganimation0003.png" id="29_cs1tg"]
-[ext_resource type="Texture2D" uid="uid://1dqhjtvlhtuj" path="res://assets/sprites/player/playeranimations/runningplayer/runninganimation0004.png" id="30_2dvfe"]
-[ext_resource type="Texture2D" uid="uid://cy8kyw80hv1r5" path="res://assets/sprites/player/playeranimations/runningplayer/runninganimation0005.png" id="31_giy8y"]
-[ext_resource type="Texture2D" uid="uid://dj2la26xjpc4t" path="res://assets/sprites/player/playeranimations/runningplayer/runninganimation0006.png" id="32_fdfoy"]
-[ext_resource type="Texture2D" uid="uid://d1jjroi2pa3y3" path="res://assets/sprites/player/playeranimations/runningplayer/runninganimation0007.png" id="33_hhpqf"]
-[ext_resource type="Texture2D" uid="uid://da45nqx551m7o" path="res://assets/sprites/player/playeranimations/runningplayer/runninganimation0008.png" id="34_g5jhy"]
-[ext_resource type="Texture2D" uid="uid://bl80c3r6aug8j" path="res://assets/sprites/player/playeranimations/runningplayer/runninganimation0009.png" id="35_holxr"]
-[ext_resource type="Texture2D" uid="uid://ctnpqlblng8lu" path="res://assets/sprites/player/playeranimations/runningplayer/runninganimation0010.png" id="36_mx1m4"]
-[ext_resource type="Texture2D" uid="uid://d1ydeyxta4ggd" path="res://assets/sprites/player/playeranimations/runningplayer/runninganimation0011.png" id="37_4gjji"]
+[ext_resource type="Texture2D" uid="uid://dxjlfwwx0pkcg" path="res://assets/sprites/player/playeranimations/runleft/runninganimation0000.png" id="26_hax0n"]
+[ext_resource type="Texture2D" uid="uid://deb7quus72t64" path="res://assets/sprites/player/playeranimations/runleft/runninganimation0001.png" id="27_t4otl"]
+[ext_resource type="Texture2D" uid="uid://dfse0x8neilto" path="res://assets/sprites/player/playeranimations/runleft/runninganimation0002.png" id="28_j2b1d"]
+[ext_resource type="Texture2D" uid="uid://8tnpb1x6p323" path="res://assets/sprites/player/playeranimations/runleft/runninganimation0003.png" id="29_cs1tg"]
+[ext_resource type="Texture2D" uid="uid://1dqhjtvlhtuj" path="res://assets/sprites/player/playeranimations/runleft/runninganimation0004.png" id="30_2dvfe"]
+[ext_resource type="Texture2D" uid="uid://cy8kyw80hv1r5" path="res://assets/sprites/player/playeranimations/runleft/runninganimation0005.png" id="31_giy8y"]
+[ext_resource type="Texture2D" uid="uid://dj2la26xjpc4t" path="res://assets/sprites/player/playeranimations/runleft/runninganimation0006.png" id="32_fdfoy"]
+[ext_resource type="Texture2D" uid="uid://d1jjroi2pa3y3" path="res://assets/sprites/player/playeranimations/runleft/runninganimation0007.png" id="33_hhpqf"]
+[ext_resource type="Texture2D" uid="uid://da45nqx551m7o" path="res://assets/sprites/player/playeranimations/runleft/runninganimation0008.png" id="34_g5jhy"]
+[ext_resource type="Texture2D" uid="uid://bl80c3r6aug8j" path="res://assets/sprites/player/playeranimations/runleft/runninganimation0009.png" id="35_holxr"]
+[ext_resource type="Texture2D" uid="uid://ctnpqlblng8lu" path="res://assets/sprites/player/playeranimations/runleft/runninganimation0010.png" id="36_mx1m4"]
+[ext_resource type="Texture2D" uid="uid://d1ydeyxta4ggd" path="res://assets/sprites/player/playeranimations/runleft/runninganimation0011.png" id="37_4gjji"]
+[ext_resource type="Texture2D" uid="uid://dpyuv4801fifm" path="res://assets/sprites/player/playeranimations/runright/runningright0000.png" id="38_u2ulf"]
+[ext_resource type="Texture2D" uid="uid://cm7wn3k0v4kuf" path="res://assets/sprites/player/playeranimations/runright/runningright0001.png" id="39_6e8lb"]
+[ext_resource type="Texture2D" uid="uid://d1dkbpntig0gb" path="res://assets/sprites/player/playeranimations/runright/runningright0002.png" id="40_2gdjj"]
+[ext_resource type="Texture2D" uid="uid://bfjjpvuygrfi8" path="res://assets/sprites/player/playeranimations/runright/runningright0003.png" id="41_sc3ue"]
+[ext_resource type="Texture2D" uid="uid://bgx6nxvkxkgo0" path="res://assets/sprites/player/playeranimations/runright/runningright0004.png" id="42_lxlsd"]
+[ext_resource type="Texture2D" uid="uid://cxh3d61oe24or" path="res://assets/sprites/player/playeranimations/runright/runningright0005.png" id="43_ha2mi"]
+[ext_resource type="Texture2D" uid="uid://mfv56gfab6ah" path="res://assets/sprites/player/playeranimations/runright/runningright0006.png" id="44_apa73"]
+[ext_resource type="Texture2D" uid="uid://qakacgc6kjeo" path="res://assets/sprites/player/playeranimations/runright/runningright0007.png" id="45_74r1k"]
+[ext_resource type="Texture2D" uid="uid://bhnkfe3npnupt" path="res://assets/sprites/player/playeranimations/runright/runningright0008.png" id="46_8svfe"]
+[ext_resource type="Texture2D" uid="uid://dbphwogcgnx5f" path="res://assets/sprites/player/playeranimations/runright/runningright0009.png" id="47_2a3c5"]
+[ext_resource type="Texture2D" uid="uid://dguc66ovgk8d4" path="res://assets/sprites/player/playeranimations/runright/runningright0010.png" id="48_42b1b"]
+[ext_resource type="Texture2D" uid="uid://dp5uljwpavd67" path="res://assets/sprites/player/playeranimations/runright/runningright0011.png" id="49_h7ic4"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
 animations = [{
@@ -157,6 +169,47 @@ animations = [{
 "loop": 1,
 "name": &"run_left",
 "speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("38_u2ulf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_6e8lb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_2gdjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_sc3ue")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_lxlsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_ha2mi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_apa73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_74r1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_8svfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_2a3c5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_42b1b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_h7ic4")
+}],
+"loop": 1,
+"name": &"run_right",
+"speed": 24.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gqjdf"]
@@ -168,7 +221,7 @@ script = ExtResource("1_3vyb7")
 
 [node name="AnimSprite" type="AnimatedSprite2D" parent="." unique_id=1674274962]
 sprite_frames = SubResource("SpriteFrames_g4v7s")
-animation = &"run_left"
+animation = &"run_right"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1267157351]
