@@ -60,6 +60,7 @@ func do_bounces(old_velocity: Vector2):
 		var bounce: float = bounce_distance + Globals.TILE_SIZE + Globals.LEVEL_STEP * int(first_time)
 		var direction = old_velocity.normalized().bounce(normal)
 		velocity = direction *  sqrt(bounce * 2 * gravity)
+		Sound.play_bounce(max(bounce_distance/500, 0.5))
 		move_and_slide()
 	
 		

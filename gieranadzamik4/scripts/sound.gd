@@ -9,3 +9,10 @@ func change_music_vol(value: float):
 func play_ui_click():
 	$UIClickSound.pitch_scale = 1.0
 	$UIClickSound.play()
+
+func play_bounce(pitch: float):
+	$BounceSound.pitch_scale = pitch
+	$BounceSound.play(8.76)
+
+func play_jump():
+	pass
