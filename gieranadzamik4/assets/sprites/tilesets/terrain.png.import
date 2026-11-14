@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dloo8bkyf5f0"
-path="res://.godot/imported/maincharactersprite.png-533c6ff3018448d2c35c71a19feaa9e3.ctex"
+uid="uid://bqwq00uvaps6e"
+path="res://.godot/imported/terrain.png-4281488b25d55ce582ff3bb02d69f64f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/gracz/maincharactersprite.png"
-dest_files=["res://.godot/imported/maincharactersprite.png-533c6ff3018448d2c35c71a19feaa9e3.ctex"]
+source_file="res://assets/sprites/tilesets/terrain.png"
+dest_files=["res://.godot/imported/terrain.png-4281488b25d55ce582ff3bb02d69f64f.ctex"]
 
 [params]
 

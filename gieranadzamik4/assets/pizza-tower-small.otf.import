@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://cukrjku7u4g7o"
-path="res://.godot/imported/pizza-tower-small.otf-c452384d687ebf62b9831531969a98e0.fontdata"
+path="res://.godot/imported/pizza-tower-small.otf-41af4586f7ca9844e1036d3578cb0833.fontdata"
 
 [deps]
 
-source_file="res://Assets/pizza-tower-small.otf"
-dest_files=["res://.godot/imported/pizza-tower-small.otf-c452384d687ebf62b9831531969a98e0.fontdata"]
+source_file="res://assets/pizza-tower-small.otf"
+dest_files=["res://.godot/imported/pizza-tower-small.otf-41af4586f7ca9844e1036d3578cb0833.fontdata"]
 
 [params]
 

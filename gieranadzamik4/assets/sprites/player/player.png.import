@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqwq00uvaps6e"
-path="res://.godot/imported/Terengrahavenpierwszy.png-c36f0906ac166d37fdb465bd81fbe333.ctex"
+uid="uid://dloo8bkyf5f0"
+path="res://.godot/imported/player.png-65b4e4a8f251ccdb19a5076e652a4f66.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/tilesety/Terengrahavenpierwszy.png"
-dest_files=["res://.godot/imported/Terengrahavenpierwszy.png-c36f0906ac166d37fdb465bd81fbe333.ctex"]
+source_file="res://assets/sprites/player/player.png"
+dest_files=["res://.godot/imported/player.png-65b4e4a8f251ccdb19a5076e652a4f66.ctex"]
 
 [params]
 

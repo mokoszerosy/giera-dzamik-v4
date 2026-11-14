@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" uid="uid://dl2braeufmvuf" path="res://scripts/base_level.gd" id="1_md458"]
 [ext_resource type="Texture2D" uid="uid://csto8r0llgmxg" path="res://icon.svg" id="2_uk53i"]
-[ext_resource type="PackedScene" uid="uid://bub8jl24js3la" path="res://scenes/PuffBall.tscn" id="3_o1chu"]
-[ext_resource type="Texture2D" uid="uid://bqwq00uvaps6e" path="res://Assets/sprites/tilesety/Terengrahavenpierwszy.png" id="3_ukglk"]
+[ext_resource type="PackedScene" uid="uid://bub8jl24js3la" path="res://scenes/obstacles/puff_ball.tscn" id="3_o1chu"]
+[ext_resource type="Texture2D" uid="uid://bqwq00uvaps6e" path="res://assets/sprites/tilesets/terrain.png" id="3_ukglk"]
 [ext_resource type="PackedScene" uid="uid://nd57l21qgghc" path="res://scenes/bouncer.tscn" id="4_wwrw0"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wwrw0"]
