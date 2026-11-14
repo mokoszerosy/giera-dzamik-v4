@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://dl2braeufmvuf" path="res://scripts/base_level.gd" id="1_md458"]
 [ext_resource type="Texture2D" uid="uid://bqwq00uvaps6e" path="res://assets/sprites/tilesets/terrain.png" id="3_ukglk"]
+[ext_resource type="FontFile" uid="uid://cukrjku7u4g7o" path="res://assets/pizza-tower-small.otf" id="4_o1chu"]
 [ext_resource type="PackedScene" uid="uid://nd57l21qgghc" path="res://scenes/bouncer.tscn" id="4_wwrw0"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wwrw0"]
@@ -286,6 +287,9 @@ texture = ExtResource("3_ukglk")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_wwrw0")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gqjdf"]
+size = Vector2(2036, 368.5)
+
 [node name="Main" type="Node2D" unique_id=1953884599 node_paths=PackedStringArray("spawn_point")]
 script = ExtResource("1_md458")
 spawn_point = NodePath("PlayerSpawnPoint")
@@ -303,3 +307,31 @@ scale = Vector2(0.90177804, 0.16666667)
 
 [node name="PlayerSpawnPoint" type="Marker2D" parent="." unique_id=630531347]
 position = Vector2(792, 678)
+
+[node name="FinishActivationArea" type="Area2D" parent="." unique_id=2042148574]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="FinishActivationArea" unique_id=1287311650]
+position = Vector2(1110, -138.75)
+shape = SubResource("RectangleShape2D_gqjdf")
+
+[node name="FinishGroup" type="Control" parent="." unique_id=1915040888]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 3
+anchors_preset = 0
+
+[node name="FinishLabel" type="Label" parent="FinishGroup" unique_id=1206983600]
+layout_mode = 0
+offset_left = 639.0
+offset_top = 401.0
+offset_right = 1133.0
+offset_bottom = 530.0
+theme_override_fonts/font = ExtResource("4_o1chu")
+theme_override_font_sizes/font_size = 72
+text = "YAY!
+You finished!
+
+Ze Sorcerer ist happi!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="body_entered" from="FinishActivationArea" to="." method="_on_finish_activation_area_body_entered"]

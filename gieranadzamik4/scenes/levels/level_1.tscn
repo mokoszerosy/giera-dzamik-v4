@@ -66,3 +66,12 @@ width = 10
 [node name="Platform16" parent="." index="16" unique_id=1365367823 instance=ExtResource("2_6iamk")]
 position = Vector2(1056, -2400)
 width = 9
+
+[node name="CollisionShape2D" parent="FinishActivationArea" parent_id_path=PackedInt32Array(2042148574) index="0" unique_id=1287311650]
+position = Vector2(1104, -2641)
+
+[node name="FinishLabel" parent="FinishGroup" parent_id_path=PackedInt32Array(1915040888) index="0" unique_id=1206983600]
+offset_left = 480.0
+offset_top = -2976.0
+offset_right = 1750.0
+offset_bottom = -2659.0
