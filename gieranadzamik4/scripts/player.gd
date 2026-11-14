@@ -1,8 +1,8 @@
 extends CharacterBody2D
 
-@export var horizontal_speed := 500.0
+@export var horizontal_speed := 250.0
 @export var jump_velocity := -600.0
-var gravity: float = ProjectSettings.get_setting("physics/2d/default_gravity") 
+var gravity: float = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():
