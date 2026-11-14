@@ -67,7 +67,7 @@ func _set_texture() -> void:
 		TILE_TEXTURE
 
 func _on_player_detector_body_entered(body: Node2D) -> void:
-	if not body is Player:
+	if not body is Player or not disappearing:
 		return
 	if not restore_timer.is_stopped():
 		return
@@ -76,7 +76,7 @@ func _on_player_detector_body_entered(body: Node2D) -> void:
 		destroy_timer.start()
 
 func _on_player_detector_body_exited(body: Node2D) -> void:
-	if not body is Player:
+	if not body is Player or not disappearing:
 		return
 	has_player = false
 	destroy_timer.stop()
