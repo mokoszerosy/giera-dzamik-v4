@@ -46,8 +46,11 @@ func apply_movement_inputs():
 			)
 		anim_sprite.play("run_left")
 		if direction > 0:
+			anim_sprite.play("run_right")
 			anim_sprite.flip_h = true
+			
 		else:
+			anim_sprite.play("run_left")
 			anim_sprite.flip_h = false
 	else:
 		velocity.x = move_toward(velocity.x, 0, deceleration_speed)
