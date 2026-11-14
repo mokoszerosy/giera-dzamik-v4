@@ -4,9 +4,9 @@ extends CharacterBody2D
 @onready var anim_sprite: AnimatedSprite2D = $AnimSprite
 @export var horizontal_speed := 350.0
 @export var grounded_horizontal_speed := 500.0
-@export var deceleration_speed := 25.0
+@export var deceleration_speed := 75
 @export var jump_velocity := -400.0
-@export var movement_ease_in_speed: float = 0.25
+@export var movement_ease_in_speed: float = 0.8
 var gravity: float = ProjectSettings.get_setting("physics/2d/default_gravity")
 var last_collided_with: Dictionary[Object, Object] = {}
 var last_floor_height: float = 0.0
