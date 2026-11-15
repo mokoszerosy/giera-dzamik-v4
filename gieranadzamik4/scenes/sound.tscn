@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://dnvhbaktgxmti" path="res://scripts/sound.gd" id="1_ii1ul"]
 [ext_resource type="AudioStream" uid="uid://b0q7dmf34dqfr" path="res://assets/sfx/uiclick.wav" id="2_4lc31"]
 [ext_resource type="AudioStream" uid="uid://bhg3clc0p757k" path="res://assets/sfx/bounce.wav" id="3_6u6u7"]
-[ext_resource type="AudioStream" uid="uid://b5vib777078x1" path="res://assets/sfx/jump.wav" id="3_gysf4"]
+[ext_resource type="AudioStream" uid="uid://c5nuqg1iqpdt4" path="res://assets/sfx/jump.wav" id="3_gysf4"]
 [ext_resource type="AudioStream" uid="uid://c7ajwfsiirwy6" path="res://assets/sfx/falling_rocks.wav" id="4_6ymk6"]
 [ext_resource type="AudioStream" uid="uid://be2qdxtd066en" path="res://assets/sfx/slime.wav" id="6_1bigd"]
 
@@ -30,10 +30,11 @@ stream = ExtResource("2_4lc31")
 
 [node name="JumpSound" type="AudioStreamPlayer" parent="." unique_id=1508526753]
 stream = ExtResource("3_gysf4")
-volume_db = -5.472
+volume_db = -11.858
 
 [node name="BounceSound" type="AudioStreamPlayer" parent="." unique_id=1757768318]
 stream = ExtResource("3_6u6u7")
+volume_db = 2.737
 
 [node name="PuffSound" type="AudioStreamPlayer" parent="." unique_id=290885176]
 
