@@ -96,7 +96,6 @@
 [ext_resource type="Texture2D" uid="uid://dy1s8tiykngxn" path="res://assets/sprites/player/playeranimations/flyright/flyright0010.png" id="48_2s4os"]
 [ext_resource type="Texture2D" uid="uid://b2gqfaklwunv5" path="res://assets/sprites/player/playeranimations/runright/runningright0010.png" id="48_42b1b"]
 [ext_resource type="Texture2D" uid="uid://b6pwywotvuio5" path="res://assets/sprites/player/playeranimations/flyright/flyright0011.png" id="49_2em0j"]
-[ext_resource type="Texture2D" uid="uid://bs40k5g5ugwqx" path="res://assets/sprites/player/playeranimations/runright/runningright0011.png" id="49_h7ic4"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
 animations = [{
@@ -415,9 +414,6 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("48_42b1b")
-}, {
-"duration": 1.0,
-"texture": ExtResource("49_h7ic4")
 }],
 "loop": 1,
 "name": &"run_right",
@@ -433,7 +429,7 @@ script = ExtResource("1_3vyb7")
 
 [node name="AnimSprite" type="AnimatedSprite2D" parent="." unique_id=1674274962]
 sprite_frames = SubResource("SpriteFrames_g4v7s")
-animation = &"fly_left"
+animation = &"run_right"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1267157351]

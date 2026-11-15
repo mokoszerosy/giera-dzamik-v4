@@ -48,20 +48,27 @@ func apply_movement_inputs():
 			
 		if direction > 0:
 			if is_airborne:
-				anim_sprite.play("fall_right")
+				if velocity.y > 0:
+					anim_sprite.play("fall_right")
+				else:
+					anim_sprite.play("fly_right")
 			else:
 				anim_sprite.play("run_right")
 			anim_sprite.flip_h = true
 			
 		else:
 			if is_airborne:
-				anim_sprite.play("fall_left")
+				if velocity.y > 0:
+					anim_sprite.play("fall_left")
+				else:
+					anim_sprite.play("fly_left")
 			else:
 				anim_sprite.play("run_left")
 			anim_sprite.flip_h = false
 	else:
 		velocity.x = move_toward(velocity.x, 0, deceleration_speed)
-		anim_sprite.play("idle")
+		if not is_airborne:
+			anim_sprite.play("idle")
 
 func do_bounces():
 	var normal = Vector2()

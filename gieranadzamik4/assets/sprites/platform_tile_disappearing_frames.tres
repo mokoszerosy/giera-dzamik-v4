@@ -1,0 +1,85 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c42tws43snnj4"]
+
+[ext_resource type="Texture2D" uid="uid://drg6q51b1gjmh" path="res://assets/sprites/obstacles/platformaniszczacasie/niszczysie0000.png" id="1_ucjej"]
+[ext_resource type="Texture2D" uid="uid://b0lm4hkevpuni" path="res://assets/sprites/obstacles/platformaniszczacasie/niszczysie0001.png" id="2_v7h5t"]
+[ext_resource type="Texture2D" uid="uid://diqn7o36qa27a" path="res://assets/sprites/obstacles/platformaniszczacasie/niszczysie0002.png" id="3_bsxn6"]
+[ext_resource type="Texture2D" uid="uid://1vi5lgw5xei8" path="res://assets/sprites/obstacles/platformaniszczacasie/niszczysie0003.png" id="4_xxq45"]
+[ext_resource type="Texture2D" uid="uid://cp2snt7frig23" path="res://assets/sprites/obstacles/platformaniszczacasie/niszczysie0004.png" id="5_mt61d"]
+[ext_resource type="Texture2D" uid="uid://6ubb5mkkqxna" path="res://assets/sprites/obstacles/platformaniszczacasie/niszczysie0005.png" id="6_dop8l"]
+[ext_resource type="Texture2D" uid="uid://cc36dnt6f371f" path="res://assets/sprites/obstacles/platformaniszczacasie/niszczystoi0000.png" id="7_p25gj"]
+[ext_resource type="Texture2D" uid="uid://b5ua5i12ooimt" path="res://assets/sprites/obstacles/platformaniszczacasie/niszczystoi0001.png" id="8_w2kjw"]
+[ext_resource type="Texture2D" uid="uid://c6jdclu8gfdvv" path="res://assets/sprites/obstacles/platformaniszczacasie/dangerousplatformidle.png" id="9_q4p1c"]
+[ext_resource type="Texture2D" uid="uid://bbdeaj4gk1hew" path="res://assets/sprites/obstacles/platformaniszczacasie/trzesiesie0000.png" id="10_g2fbl"]
+[ext_resource type="Texture2D" uid="uid://bsaagffkfwuuo" path="res://assets/sprites/obstacles/platformaniszczacasie/trzesiesie0001.png" id="11_be14w"]
+[ext_resource type="Texture2D" uid="uid://53op3jg0fxtj" path="res://assets/sprites/obstacles/platformaniszczacasie/trzesiesie0002.png" id="12_op84h"]
+[ext_resource type="Texture2D" uid="uid://cwl7187ylxfp1" path="res://assets/sprites/obstacles/platformaniszczacasie/trzesiesie0003.png" id="13_lvb1o"]
+[ext_resource type="Texture2D" uid="uid://bkvklv5df5ucv" path="res://assets/sprites/obstacles/platformaniszczacasie/trzesiesie0004.png" id="14_0iro1"]
+[ext_resource type="Texture2D" uid="uid://2ukbmnunbpap" path="res://assets/sprites/obstacles/platformaniszczacasie/trzesiesie0005.png" id="15_ptt2y"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ucjej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_v7h5t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_bsxn6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xxq45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_mt61d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_dop8l")
+}],
+"loop": 0,
+"name": &"breaking",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_p25gj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_w2kjw")
+}],
+"loop": 1,
+"name": &"cooldown",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_q4p1c")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 16.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_g2fbl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_be14w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_op84h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_lvb1o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_0iro1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ptt2y")
+}],
+"loop": 1,
+"name": &"playerstanding",
+"speed": 12.0
+}]
