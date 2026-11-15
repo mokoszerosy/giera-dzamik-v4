@@ -1,31 +1,56 @@
 [gd_scene format=3 uid="uid://bub8jl24js3la"]
 
 [ext_resource type="Script" uid="uid://su8nnba41hxf" path="res://scripts/puff_ball.gd" id="1_j743o"]
+[ext_resource type="Texture2D" uid="uid://dx6mioc5125jc" path="res://assets/sprites/obstacles/bubblebum/banka0000.png" id="2_cjdbm"]
 [ext_resource type="Texture2D" uid="uid://c37cucpxc5be1" path="res://assets/sprites/obstacles/bubble/banka0000.png" id="2_nuixj"]
 [ext_resource type="Texture2D" uid="uid://dhkhd4xl1b14" path="res://assets/sprites/obstacles/bubble/banka0001.png" id="3_gcnmu"]
+[ext_resource type="Texture2D" uid="uid://b2rn18cxu6b4r" path="res://assets/sprites/obstacles/bubblebum/banka0001.png" id="3_i2iet"]
 [ext_resource type="Texture2D" uid="uid://duue1iprgeoux" path="res://assets/sprites/obstacles/bubble/banka0002.png" id="4_8d4pd"]
+[ext_resource type="Texture2D" uid="uid://dxw783y07nuph" path="res://assets/sprites/obstacles/bubblebum/banka0002.png" id="4_lrb6g"]
 [ext_resource type="Texture2D" uid="uid://cfd8a34twjb17" path="res://assets/sprites/obstacles/bubble/banka0003.png" id="5_pr3wi"]
+[ext_resource type="Texture2D" uid="uid://b8vjysqgwigdo" path="res://assets/sprites/obstacles/bubblebum/banka0003.png" id="5_revlg"]
 [ext_resource type="Texture2D" uid="uid://s0fu1q54ed62" path="res://assets/sprites/obstacles/bubble/banka0004.png" id="6_mn24i"]
+[ext_resource type="Texture2D" uid="uid://dnbiomxej2ysp" path="res://assets/sprites/obstacles/bubblebum/banka0004.png" id="6_qxhf6"]
+[ext_resource type="Texture2D" uid="uid://drt4j3y6dc74m" path="res://assets/sprites/obstacles/bubblebum/banka0005.png" id="7_8ljoo"]
 [ext_resource type="Texture2D" uid="uid://dbv8r5w6u0sl4" path="res://assets/sprites/obstacles/bubble/banka0005.png" id="7_xp5su"]
+[ext_resource type="Texture2D" uid="uid://dbuos86lge7pd" path="res://assets/sprites/obstacles/bubblebum/banka0006.png" id="8_6mo5w"]
 [ext_resource type="Texture2D" uid="uid://c2jk6ctni2p1v" path="res://assets/sprites/obstacles/bubble/banka0006.png" id="8_le3a5"]
+[ext_resource type="Texture2D" uid="uid://d3ekdqe5m3hb0" path="res://assets/sprites/obstacles/bubblebum/banka0007.png" id="9_bvih8"]
 [ext_resource type="Texture2D" uid="uid://b4cmlmq7mxag8" path="res://assets/sprites/obstacles/bubble/banka0007.png" id="9_rjlvi"]
+[ext_resource type="Texture2D" uid="uid://biigqamo3s4e6" path="res://assets/sprites/obstacles/bubblebum/banka0008.png" id="10_tuu71"]
 [ext_resource type="Texture2D" uid="uid://h6x4uwy7uar3" path="res://assets/sprites/obstacles/bubble/banka0008.png" id="10_y6e3a"]
 [ext_resource type="Texture2D" uid="uid://c5ce2p02bjivg" path="res://assets/sprites/obstacles/bubble/banka0009.png" id="11_gh8qn"]
+[ext_resource type="Texture2D" uid="uid://lvwx13gehlkv" path="res://assets/sprites/obstacles/bubblebum/banka0009.png" id="11_ulf18"]
 [ext_resource type="Texture2D" uid="uid://d4cww43uy0r6j" path="res://assets/sprites/obstacles/bubble/banka0010.png" id="12_kjiql"]
+[ext_resource type="Texture2D" uid="uid://dpvd8r6hl5lnn" path="res://assets/sprites/obstacles/bubblebum/banka0010.png" id="12_v245g"]
 [ext_resource type="Texture2D" uid="uid://eg487pa3xp21" path="res://assets/sprites/obstacles/bubble/banka0011.png" id="13_7hqca"]
+[ext_resource type="Texture2D" uid="uid://dpmcjeg7pf4lk" path="res://assets/sprites/obstacles/bubblebum/banka0011.png" id="13_qhmyr"]
 [ext_resource type="Texture2D" uid="uid://c73l11bmk2aqx" path="res://assets/sprites/obstacles/bubble/banka0012.png" id="14_3s6ul"]
+[ext_resource type="Texture2D" uid="uid://b5jhgvqb12ir2" path="res://assets/sprites/obstacles/bubblebum/banka0012.png" id="14_ry2ps"]
 [ext_resource type="Texture2D" uid="uid://tfcd4bk3dxxv" path="res://assets/sprites/obstacles/bubble/banka0013.png" id="15_gp6ad"]
+[ext_resource type="Texture2D" uid="uid://dah4bmyf8p8iu" path="res://assets/sprites/obstacles/bubblebum/banka0013.png" id="15_jw45o"]
 [ext_resource type="Texture2D" uid="uid://du1n0ra5sde62" path="res://assets/sprites/obstacles/bubble/banka0014.png" id="16_1fb0n"]
+[ext_resource type="Texture2D" uid="uid://jacj7k5eqnn2" path="res://assets/sprites/obstacles/bubblebum/banka0014.png" id="16_trydk"]
+[ext_resource type="Texture2D" uid="uid://dlahgiuuke7f6" path="res://assets/sprites/obstacles/bubblebum/banka0015.png" id="17_jj2op"]
 [ext_resource type="Texture2D" uid="uid://djhjl0r5vf8ul" path="res://assets/sprites/obstacles/bubble/banka0015.png" id="17_uhsbh"]
 [ext_resource type="Texture2D" uid="uid://cwl4nluh3ddvb" path="res://assets/sprites/obstacles/bubble/banka0016.png" id="18_0xg8y"]
+[ext_resource type="Texture2D" uid="uid://dqnsm64oqxitd" path="res://assets/sprites/obstacles/bubblebum/banka0016.png" id="18_5ncps"]
+[ext_resource type="Texture2D" uid="uid://d2xsjp6k0akr2" path="res://assets/sprites/obstacles/bubblebum/banka0017.png" id="19_dqm4s"]
 [ext_resource type="Texture2D" uid="uid://dtuoexv3j86hq" path="res://assets/sprites/obstacles/bubble/banka0017.png" id="19_ulndd"]
+[ext_resource type="Texture2D" uid="uid://c2is1005grxt8" path="res://assets/sprites/obstacles/bubblebum/banka0018.png" id="20_lyqgx"]
 [ext_resource type="Texture2D" uid="uid://3qjwjba8clmh" path="res://assets/sprites/obstacles/bubble/banka0018.png" id="20_sbohp"]
 [ext_resource type="Texture2D" uid="uid://dbjhe8nqwfsnr" path="res://assets/sprites/obstacles/bubble/banka0019.png" id="21_mmnb2"]
+[ext_resource type="Texture2D" uid="uid://c0dnpvltdvjgj" path="res://assets/sprites/obstacles/bubblebum/banka0019.png" id="21_rwdy7"]
+[ext_resource type="Texture2D" uid="uid://dyk3sn0onxoxh" path="res://assets/sprites/obstacles/bubblebum/banka0020.png" id="22_5l1fj"]
 [ext_resource type="Texture2D" uid="uid://dusppnxxdtwdv" path="res://assets/sprites/obstacles/bubble/banka0020.png" id="22_pkd8b"]
 [ext_resource type="Texture2D" uid="uid://b2xqy7s7w36k6" path="res://assets/sprites/obstacles/bubble/banka0021.png" id="23_eb6k5"]
+[ext_resource type="Texture2D" uid="uid://dw72xd2j3tllg" path="res://assets/sprites/obstacles/bubblebum/banka0021.png" id="23_hmh6l"]
 [ext_resource type="Texture2D" uid="uid://d2two06f2wjyl" path="res://assets/sprites/obstacles/bubble/banka0022.png" id="24_0koat"]
+[ext_resource type="Texture2D" uid="uid://bdqo182mdqmga" path="res://assets/sprites/obstacles/bubblebum/banka0022.png" id="24_ylwb4"]
+[ext_resource type="Texture2D" uid="uid://ctndw3tffwu32" path="res://assets/sprites/obstacles/bubblebum/banka0023.png" id="25_1wnuo"]
 [ext_resource type="Texture2D" uid="uid://dsgtnkm26ihww" path="res://assets/sprites/obstacles/bubble/banka0023.png" id="25_rwy0u"]
 [ext_resource type="Texture2D" uid="uid://dd3ktrakj4pf3" path="res://assets/sprites/obstacles/bubble/banka0024.png" id="26_fejmr"]
+[ext_resource type="Texture2D" uid="uid://41ewmhaoq1xg" path="res://assets/sprites/obstacles/bubblebum/banka0024.png" id="26_ql8jv"]
 [ext_resource type="Texture2D" uid="uid://tuuilkvm1gih" path="res://assets/sprites/obstacles/bubble/banka0025.png" id="27_cjdbm"]
 [ext_resource type="Texture2D" uid="uid://bftqj38fbvl2b" path="res://assets/sprites/obstacles/bubble/banka0026.png" id="28_i2iet"]
 [ext_resource type="Texture2D" uid="uid://edvua2e4k2v0" path="res://assets/sprites/obstacles/bubble/banka0027.png" id="29_lrb6g"]
@@ -100,6 +125,86 @@
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_cjdbm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_i2iet")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_lrb6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_revlg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_qxhf6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_8ljoo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_6mo5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_bvih8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_tuu71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ulf18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_v245g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_qhmyr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ry2ps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_jw45o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_trydk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_jj2op")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_5ncps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_dqm4s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_lyqgx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_rwdy7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_5l1fj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_hmh6l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ylwb4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_1wnuo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_ql8jv")
+}],
+"loop": 1,
+"name": &"bubbleboom",
+"speed": 24.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("2_nuixj")
@@ -404,10 +509,8 @@ script = ExtResource("1_j743o")
 position = Vector2(-0.50000143, 2.3841858e-06)
 scale = Vector2(0.708, 0.716)
 sprite_frames = SubResource("SpriteFrames_g4v7s")
-animation = &"idle"
+animation = &"bubbleboom"
 autoplay = "idle"
-frame = 15
-frame_progress = 0.025580697
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=886671427]
 shape = SubResource("CircleShape2D_hk3cl")
