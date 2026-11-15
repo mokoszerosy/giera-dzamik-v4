@@ -1,8 +1,27 @@
 [gd_resource type="Theme" format=3 uid="uid://c7jkub5lm1hl"]
 
 [ext_resource type="FontFile" uid="uid://cukrjku7u4g7o" path="res://assets/pizza-tower-small.otf" id="1_wq7w1"]
+[ext_resource type="Texture2D" uid="uid://sa5gxn163qiq" path="res://assets/ui/buttonhovert.png" id="2_6elgr"]
+[ext_resource type="Texture2D" uid="uid://63eqw6u7vd2t" path="res://assets/ui/button.png" id="2_7kjqa"]
+[ext_resource type="Texture2D" uid="uid://bfedltrq374pj" path="res://assets/ui/button_pressed.png" id="2_fa45g"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6elgr"]
+texture = ExtResource("2_6elgr")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_snqgk"]
+texture = ExtResource("2_fa45g")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0ljxa"]
+texture = ExtResource("2_7kjqa")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_f6qs8"]
+texture = ExtResource("2_fa45g")
 
 [resource]
 Button/constants/outline_size = 10
 Button/font_sizes/font_size = 40
 Button/fonts/font = ExtResource("1_wq7w1")
+Button/styles/hover = SubResource("StyleBoxTexture_6elgr")
+Button/styles/hover_pressed = SubResource("StyleBoxTexture_snqgk")
+Button/styles/normal = SubResource("StyleBoxTexture_0ljxa")
+Button/styles/pressed = SubResource("StyleBoxTexture_f6qs8")
