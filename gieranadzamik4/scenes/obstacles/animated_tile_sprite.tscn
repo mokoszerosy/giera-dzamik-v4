@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://t03gfxvodhe1"]
+
+[ext_resource type="SpriteFrames" uid="uid://cvwo3empw38o1" path="res://assets/sprites/platform_tile_frames.tres" id="1_uklt0"]
+
+[sub_resource type="Gradient" id="Gradient_ubkuk"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_tt3is"]
+gradient = SubResource("Gradient_ubkuk")
+width = 16
+height = 16
+
+[node name="Root" type="Node2D" unique_id=302332044]
+
+[node name="SpriteCut" type="Sprite2D" parent="." unique_id=127685887]
+clip_children = 1
+position = Vector2(8, 8)
+texture = SubResource("GradientTexture2D_tt3is")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="SpriteCut" unique_id=1958243023]
+position = Vector2(24, 0)
+sprite_frames = ExtResource("1_uklt0")
+animation = &"idle"
+autoplay = "idle"

@@ -44,7 +44,7 @@ position = Vector2(480, -384)
 
 [node name="Platform6" parent="." index="10" unique_id=798403838 instance=ExtResource("2_ra442")]
 position = Vector2(768, -768)
-width = 4
+width = 8
 disappearing = true
 
 [node name="Platform7" parent="." index="11" unique_id=692468269 instance=ExtResource("2_ra442")]
@@ -107,8 +107,3 @@ position = Vector2(1344, -3168)
 
 [node name="PuffBall11" parent="." index="25" unique_id=93544755 instance=ExtResource("3_ra442")]
 position = Vector2(1152, -3456)
-
-[node name="Platform8" parent="." index="26" unique_id=1941129759 instance=ExtResource("2_ra442")]
-position = Vector2(1152, -768)
-width = 4
-disappearing = true
