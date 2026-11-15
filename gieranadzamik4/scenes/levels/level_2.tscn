@@ -32,17 +32,17 @@ width = 3
 disappearing = true
 
 [node name="Platform4" parent="." index="7" unique_id=463211458 instance=ExtResource("2_ra442")]
-position = Vector2(960, 96)
-width = 3
+position = Vector2(1056, 0)
+width = 2
 disappearing = true
 
 [node name="Platform5" parent="." index="8" unique_id=1268725761 instance=ExtResource("2_ra442")]
-position = Vector2(96, -96)
+position = Vector2(96, -192)
 width = 2
 disappearing = true
 
 [node name="PuffBall2" parent="." index="9" unique_id=2003756211 instance=ExtResource("3_ra442")]
-position = Vector2(384, 0)
+position = Vector2(384, -96)
 
 [node name="Platform6" parent="." index="10" unique_id=798403838 instance=ExtResource("2_ra442")]
 position = Vector2(576, -672)
@@ -57,7 +57,7 @@ position = Vector2(960, -1152)
 width = 2
 
 [node name="Platform9" parent="." index="13" unique_id=840953447 instance=ExtResource("2_ra442")]
-position = Vector2(864, -1728)
+position = Vector2(288, -1728)
 width = 3
 
 [node name="PuffBall3" parent="." index="14" unique_id=808776571 instance=ExtResource("3_ra442")]
@@ -81,4 +81,4 @@ disappearing = true
 position = Vector2(1113, -3156)
 
 [node name="PuffBall4" parent="." index="20" unique_id=964699544 instance=ExtResource("3_ra442")]
-position = Vector2(1440, 192)
+position = Vector2(1440, 96)
