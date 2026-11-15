@@ -6,6 +6,7 @@
 [ext_resource type="FontFile" uid="uid://cukrjku7u4g7o" path="res://assets/pizza-tower-small.otf" id="4_o1chu"]
 [ext_resource type="PackedScene" uid="uid://nd57l21qgghc" path="res://scenes/bouncer.tscn" id="4_wwrw0"]
 [ext_resource type="PackedScene" uid="uid://yhlottcg7jsj" path="res://scenes/main_menu.tscn" id="5_3rriw"]
+[ext_resource type="Texture2D" uid="uid://x70ultvqffrn" path="res://assets/sprites/misc/skybox.png" id="7_h4ce7"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gqjdf"]
 size = Vector2(2036, 368.5)
@@ -13,6 +14,12 @@ size = Vector2(2036, 368.5)
 [node name="Main" type="Node2D" unique_id=1953884599 node_paths=PackedStringArray("spawn_point")]
 script = ExtResource("1_md458")
 spawn_point = NodePath("PlayerSpawnPoint")
+
+[node name="Skybox" type="Sprite2D" parent="." unique_id=362976516]
+texture_filter = 1
+position = Vector2(1453, -2067)
+scale = Vector2(2, 2)
+texture = ExtResource("7_h4ce7")
 
 [node name="TileMap" type="TileMapLayer" parent="." unique_id=113364763]
 texture_filter = 1
@@ -66,5 +73,7 @@ You finished!
 Ze Sorcerer ist happi!"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1352673917]
 
 [connection signal="body_entered" from="FinishActivationArea" to="." method="_on_finish_activation_area_body_entered"]
