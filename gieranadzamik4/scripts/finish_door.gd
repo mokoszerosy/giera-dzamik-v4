@@ -26,6 +26,9 @@ func _set_text() -> void:
 	label.text = label_text
 
 func _run_action():
+	var current_scene := get_tree().current_scene
+	if current_scene and current_scene.scene_file_path != "":
+		Globals.finish_level(current_scene.scene_file_path)
 	if transfer != null:
 		get_tree().change_scene_to_packed(transfer)
 
