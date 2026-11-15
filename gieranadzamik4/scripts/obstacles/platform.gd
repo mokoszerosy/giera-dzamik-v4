@@ -1,9 +1,9 @@
 @tool
 extends StaticBody2D
 
-const TILE_TEXTURE = preload("uid://c42tws43snnj4")
+const TILE_TEXTURE = preload("uid://wrgcr3fgbh6n")
 const TILE_TEXTURE_ONE_WAY = preload("uid://dbrjra42fpg7o")
-const TILE_TEXTURE_DISAPPEARING = preload("uid://cvwo3empw38o1")
+const TILE_TEXTURE_DISAPPEARING = preload("uid://c6jdclu8gfdvv")
 
 const BLOCKER_MARGIN: float = 2.0
 
