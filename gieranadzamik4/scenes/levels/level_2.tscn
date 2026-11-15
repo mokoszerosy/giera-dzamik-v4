@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://yhlottcg7jsj" path="res://scenes/main_menu.tscn" id="4_fiq81"]
 [ext_resource type="Texture2D" uid="uid://bnnsvfl80dfe2" path="res://assets/sprites/misc/strzalkawdol.png" id="5_l37oo"]
 
-[node name="Main" unique_id=1953884599 instance=ExtResource("1_g2h2n")]
+[node name="Main2" unique_id=1953884599 instance=ExtResource("1_g2h2n")]
 
 [node name="Platform" parent="." index="2" unique_id=9970019 instance=ExtResource("2_ra442")]
 position = Vector2(1680, 864)
@@ -101,6 +101,7 @@ position = Vector2(1113, -4135)
 
 [node name="FinishDoorLeft" parent="FinishGroup" index="0" unique_id=1602043082]
 transfer = ExtResource("4_fiq81")
+label_text = "MENU"
 
 [node name="FinishLabel" parent="FinishGroup" index="2" unique_id=1206983600]
 offset_left = -643.0
