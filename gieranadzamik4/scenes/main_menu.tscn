@@ -43,6 +43,7 @@ autowrap_trim_flags = 0
 transfer = "res://scenes/levels/level_1.tscn"
 
 [node name="SoundButton2" parent="VBoxContainer" unique_id=449613381 instance=ExtResource("1_l6cm7")]
+visible = false
 custom_minimum_size = Vector2(500, 100)
 layout_mode = 2
 theme = ExtResource("2_ekxnf")
