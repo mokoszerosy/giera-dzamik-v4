@@ -129,7 +129,10 @@ func _disable_self():
 func _enable_self():
 	if player_nearby:
 		return
-	_play_anim_on_all("restoring")
+	if disappearing:
+		_play_anim_on_all("restoring")
+	else:
+		_play_anim_on_all("idle")
 	collision.set_deferred("disabled", false)
 	detector_collision.set_deferred("disabled", false)
 
