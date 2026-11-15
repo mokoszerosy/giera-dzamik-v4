@@ -201,7 +201,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("26_ql8jv")
 }],
-"loop": 1,
+"loop": 0,
 "name": &"bubbleboom",
 "speed": 24.0
 }, {
@@ -502,8 +502,10 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_hk3cl"]
 radius = 47.0
 
-[node name="PuffBall" type="Area2D" unique_id=1571602283]
+[node name="PuffBall" type="Area2D" unique_id=1571602283 node_paths=PackedStringArray("collision", "animation_sprite")]
 script = ExtResource("1_j743o")
+collision = NodePath("CollisionShape2D")
+animation_sprite = NodePath("Sprite2D")
 
 [node name="Sprite2D" type="AnimatedSprite2D" parent="." unique_id=529285829]
 position = Vector2(-0.50000143, 2.3841858e-06)
@@ -516,3 +518,5 @@ autoplay = "idle"
 shape = SubResource("CircleShape2D_hk3cl")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
+[connection signal="animation_finished" from="Sprite2D" to="." method="_on_sprite_2d_animation_finished"]
