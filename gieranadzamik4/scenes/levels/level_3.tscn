@@ -18,6 +18,12 @@ position = Vector2(1104, 768)
 [node name="FinishGroup" parent="." index="4" unique_id=326366397]
 position = Vector2(1113, -3791)
 
+[node name="FinishLabel" parent="FinishGroup" index="2" unique_id=1206983600]
+offset_left = -631.0
+offset_top = -126.0
+offset_right = 639.0
+offset_bottom = 191.0
+
 [node name="Platform" parent="." index="5" unique_id=9970019 instance=ExtResource("2_s1j21")]
 position = Vector2(864, -1152)
 width = 8

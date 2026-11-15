@@ -1,4 +1,4 @@
-[gd_scene format=4 uid="uid://cit4uo870t2yb"]
+[gd_scene format=3 uid="uid://cit4uo870t2yb"]
 
 [ext_resource type="PackedScene" uid="uid://csdp0oxlcrt83" path="res://scenes/levels/base_level.tscn" id="1_ksju7"]
 [ext_resource type="PackedScene" uid="uid://ch0wqvmo3e4y" path="res://scenes/obstacles/platform.tscn" id="2_6iamk"]
@@ -75,6 +75,12 @@ position = Vector2(1040, -2889)
 
 [node name="FinishDoorLeft" parent="FinishGroup" index="0" unique_id=1602043082]
 transfer = ExtResource("4_x42e6")
+
+[node name="FinishLabel" parent="FinishGroup" index="2" unique_id=1206983600]
+offset_left = -646.0
+offset_top = -127.0
+offset_right = 624.0
+offset_bottom = 190.0
 
 [node name="Platform17" parent="." index="20" unique_id=66649206 instance=ExtResource("2_6iamk")]
 position = Vector2(1920, -2400)
