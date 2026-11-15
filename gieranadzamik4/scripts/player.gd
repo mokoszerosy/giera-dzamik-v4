@@ -28,7 +28,6 @@ func apply_movement_inputs():
 	if Input.is_action_pressed("jump") and is_on_floor():
 		velocity.y = jump_velocity
 		Sound.play_jump()
-	
 	var direction := Input.get_axis("move_left", "move_right")
 	if direction:
 		movement_ease_in = move_toward(movement_ease_in, 1.0, movement_ease_in_speed)
@@ -48,11 +47,17 @@ func apply_movement_inputs():
 			)
 			
 		if direction > 0:
-			anim_sprite.play("run_right")
+			if is_airborne:
+				anim_sprite.play("fall_right")
+			else:
+				anim_sprite.play("run_right")
 			anim_sprite.flip_h = true
 			
 		else:
-			anim_sprite.play("run_left")
+			if is_airborne:
+				anim_sprite.play("fall_left")
+			else:
+				anim_sprite.play("run_left")
 			anim_sprite.flip_h = false
 	else:
 		velocity.x = move_toward(velocity.x, 0, deceleration_speed)
