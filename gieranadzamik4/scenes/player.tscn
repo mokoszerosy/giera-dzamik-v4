@@ -2,29 +2,53 @@
 
 [ext_resource type="Script" uid="uid://ddc4isdta31wu" path="res://scripts/player.gd" id="1_3vyb7"]
 [ext_resource type="Texture2D" uid="uid://bg3m1u5gjyhqp" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0000.png" id="2_ke2ow"]
+[ext_resource type="Texture2D" uid="uid://cltsjbj2i8sc8" path="res://assets/sprites/player/playeranimations/fallingleft/fallingleft0000.png" id="2_qsb7e"]
+[ext_resource type="Texture2D" uid="uid://c6hvi8ev5c6ho" path="res://assets/sprites/player/playeranimations/fallingleft/fallingleft0001.png" id="3_qjsmb"]
 [ext_resource type="Texture2D" uid="uid://b5mcp7wig1v1b" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0001.png" id="3_ujl30"]
 [ext_resource type="Texture2D" uid="uid://dopfqk8vvwe5d" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0002.png" id="4_31cv2"]
+[ext_resource type="Texture2D" uid="uid://dhwy3mfwytml" path="res://assets/sprites/player/playeranimations/fallingleft/fallingleft0002.png" id="4_mwp2n"]
+[ext_resource type="Texture2D" uid="uid://b61svuwh1kpgr" path="res://assets/sprites/player/playeranimations/fallingleft/fallingleft0003.png" id="5_0yhus"]
 [ext_resource type="Texture2D" uid="uid://crekumq7fhutk" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0003.png" id="5_pf23h"]
 [ext_resource type="Texture2D" uid="uid://bo1ru1fqpyv2c" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0004.png" id="6_dt7fs"]
+[ext_resource type="Texture2D" uid="uid://bis4x43d7ofe5" path="res://assets/sprites/player/playeranimations/fallingleft/fallingleft0004.png" id="6_jlll7"]
+[ext_resource type="Texture2D" uid="uid://b3yqrhehnqd8x" path="res://assets/sprites/player/playeranimations/fallingleft/fallingleft0005.png" id="7_qk6i7"]
 [ext_resource type="Texture2D" uid="uid://cni1nhoako5cq" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0005.png" id="7_wqfne"]
+[ext_resource type="Texture2D" uid="uid://bstpcvxt5dpwm" path="res://assets/sprites/player/playeranimations/fallingleft/fallingleft0006.png" id="8_6c3st"]
 [ext_resource type="Texture2D" uid="uid://dpfqhixcl53ra" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0006.png" id="8_wnwbv"]
+[ext_resource type="Texture2D" uid="uid://d0s1or0eusbbs" path="res://assets/sprites/player/playeranimations/fallingleft/fallingleft0007.png" id="9_1da1t"]
 [ext_resource type="Texture2D" uid="uid://kyf542bu5jpn" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0007.png" id="9_gl8cc"]
 [ext_resource type="Texture2D" uid="uid://brqlmvba8j6m5" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0008.png" id="10_487ah"]
+[ext_resource type="Texture2D" uid="uid://cdcyyinmdvkvb" path="res://assets/sprites/player/playeranimations/fallingleft/fallingleft0008.png" id="10_p21yu"]
+[ext_resource type="Texture2D" uid="uid://r4y5sfjc6yg4" path="res://assets/sprites/player/playeranimations/fallingleft/fallingleft0009.png" id="11_irpag"]
 [ext_resource type="Texture2D" uid="uid://dwo1lj072f5m5" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0009.png" id="11_md1ol"]
 [ext_resource type="Texture2D" uid="uid://fwutqeitn6v3" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0010.png" id="12_bj30b"]
+[ext_resource type="Texture2D" uid="uid://ys4f1lm0gd1c" path="res://assets/sprites/player/playeranimations/fallingleft/fallingleft0010.png" id="12_bpsgo"]
 [ext_resource type="Texture2D" uid="uid://71gcn7l238bb" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0011.png" id="13_jc3p3"]
+[ext_resource type="Texture2D" uid="uid://di26l3uevur2l" path="res://assets/sprites/player/playeranimations/fallingleft/fallingleft0011.png" id="13_jx8is"]
 [ext_resource type="Texture2D" uid="uid://buqpgo32tfwtm" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0012.png" id="14_hax0n"]
+[ext_resource type="Texture2D" uid="uid://d3xfcyi6ierqy" path="res://assets/sprites/player/playeranimations/fallingright/fallingright0000.png" id="14_vx63k"]
+[ext_resource type="Texture2D" uid="uid://dus648tchfiut" path="res://assets/sprites/player/playeranimations/fallingright/fallingright0001.png" id="15_lw0jh"]
 [ext_resource type="Texture2D" uid="uid://6apm1ekqgn1" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0013.png" id="15_t4otl"]
 [ext_resource type="Texture2D" uid="uid://c1k2ig6p5ow2f" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0014.png" id="16_j2b1d"]
+[ext_resource type="Texture2D" uid="uid://b63w2kojmrh0n" path="res://assets/sprites/player/playeranimations/fallingright/fallingright0002.png" id="16_ry8ed"]
+[ext_resource type="Texture2D" uid="uid://bcgbp662nwm2v" path="res://assets/sprites/player/playeranimations/fallingright/fallingright0003.png" id="17_au8ao"]
 [ext_resource type="Texture2D" uid="uid://cn4nv4m062f7r" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0015.png" id="17_cs1tg"]
 [ext_resource type="Texture2D" uid="uid://bal1cstjycxh7" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0016.png" id="18_2dvfe"]
+[ext_resource type="Texture2D" uid="uid://bh3lacu1rlv3k" path="res://assets/sprites/player/playeranimations/fallingright/fallingright0004.png" id="18_w5j5w"]
+[ext_resource type="Texture2D" uid="uid://dfosgp4fenful" path="res://assets/sprites/player/playeranimations/fallingright/fallingright0005.png" id="19_cbf1i"]
 [ext_resource type="Texture2D" uid="uid://8arlak7bnwbp" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0017.png" id="19_giy8y"]
+[ext_resource type="Texture2D" uid="uid://dan7i5bw14wnt" path="res://assets/sprites/player/playeranimations/fallingright/fallingright0006.png" id="20_4vfid"]
 [ext_resource type="Texture2D" uid="uid://d218fo5e0kq7y" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0018.png" id="20_fdfoy"]
 [ext_resource type="Texture2D" uid="uid://doerbex12hmd0" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0019.png" id="21_hhpqf"]
+[ext_resource type="Texture2D" uid="uid://b5nm58fuwtkp0" path="res://assets/sprites/player/playeranimations/fallingright/fallingright0007.png" id="21_ljgr3"]
+[ext_resource type="Texture2D" uid="uid://ddk54sctvwxvj" path="res://assets/sprites/player/playeranimations/fallingright/fallingright0008.png" id="22_fr8ja"]
 [ext_resource type="Texture2D" uid="uid://dpnglc1n54mje" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0020.png" id="22_g5jhy"]
+[ext_resource type="Texture2D" uid="uid://baubvj1mdi0do" path="res://assets/sprites/player/playeranimations/fallingright/fallingright0009.png" id="23_gvmy4"]
 [ext_resource type="Texture2D" uid="uid://cwtid6w12g6fe" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0021.png" id="23_holxr"]
+[ext_resource type="Texture2D" uid="uid://b5k7ai3odpqbw" path="res://assets/sprites/player/playeranimations/fallingright/fallingright0010.png" id="24_fcu33"]
 [ext_resource type="Texture2D" uid="uid://cddpa0hs83gem" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0022.png" id="24_mx1m4"]
 [ext_resource type="Texture2D" uid="uid://d1bou4h0drgb2" path="res://assets/sprites/player/playeranimations/idleplayernew/idlekelner0023.png" id="25_4gjji"]
+[ext_resource type="Texture2D" uid="uid://bpu3d6ge1mvm8" path="res://assets/sprites/player/playeranimations/fallingright/fallingright0011.png" id="25_qmsq4"]
 [ext_resource type="Texture2D" uid="uid://dxjlfwwx0pkcg" path="res://assets/sprites/player/playeranimations/runleft/runninganimation0000.png" id="26_hax0n"]
 [ext_resource type="Texture2D" uid="uid://deb7quus72t64" path="res://assets/sprites/player/playeranimations/runleft/runninganimation0001.png" id="27_t4otl"]
 [ext_resource type="Texture2D" uid="uid://dfse0x8neilto" path="res://assets/sprites/player/playeranimations/runleft/runninganimation0002.png" id="28_j2b1d"]
@@ -52,6 +76,88 @@
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_qsb7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_qjsmb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_mwp2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_0yhus")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_jlll7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_qk6i7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_6c3st")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_1da1t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_p21yu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_irpag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_bpsgo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_jx8is")
+}],
+"loop": 1,
+"name": &"fall_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_vx63k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_lw0jh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ry8ed")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_au8ao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_w5j5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_cbf1i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_4vfid")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ljgr3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_fr8ja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_gvmy4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_fcu33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_qmsq4")
+}],
+"loop": 1,
+"name": &"fall_right",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("2_ke2ow")
@@ -221,7 +327,7 @@ script = ExtResource("1_3vyb7")
 
 [node name="AnimSprite" type="AnimatedSprite2D" parent="." unique_id=1674274962]
 sprite_frames = SubResource("SpriteFrames_g4v7s")
-animation = &"run_right"
+animation = &"fall_left"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1267157351]
