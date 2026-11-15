@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://csdp0oxlcrt83" path="res://scenes/levels/base_level.tscn" id="1_02w4s"]
 [ext_resource type="PackedScene" uid="uid://ch0wqvmo3e4y" path="res://scenes/obstacles/platform.tscn" id="2_s1j21"]
 [ext_resource type="PackedScene" uid="uid://bub8jl24js3la" path="res://scenes/obstacles/puff_ball.tscn" id="3_0ljxa"]
+[ext_resource type="Texture2D" uid="uid://bnnsvfl80dfe2" path="res://assets/sprites/misc/strzalkawdol.png" id="4_0qepi"]
 
 [node name="Main" unique_id=1953884599 instance=ExtResource("1_02w4s")]
 
@@ -80,3 +81,23 @@ one_way = true
 
 [node name="FinishGroup" parent="." index="21" unique_id=326366397]
 position = Vector2(1113, -3791)
+
+[node name="Strzalkawdol" type="Sprite2D" parent="." index="23" unique_id=1119787896]
+texture_filter = 1
+position = Vector2(1768.0001, -1099.0001)
+rotation = -0.31323057
+scale = Vector2(1.0845357, 0.87958765)
+texture = ExtResource("4_0qepi")
+
+[node name="Strzalkawdol2" type="Sprite2D" parent="." index="24" unique_id=335467658]
+texture_filter = 1
+position = Vector2(793, -2791)
+rotation = -2.7539585
+texture = ExtResource("4_0qepi")
+
+[node name="Strzalkawdol3" type="Sprite2D" parent="." index="25" unique_id=1268002071]
+texture_filter = 1
+position = Vector2(1915, -313)
+rotation = -0.0063857734
+scale = Vector2(1.0845357, 0.87958765)
+texture = ExtResource("4_0qepi")
