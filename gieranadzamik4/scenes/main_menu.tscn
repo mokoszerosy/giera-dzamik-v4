@@ -2,15 +2,19 @@
 
 [ext_resource type="TileSet" uid="uid://dbck27nwj4byp" path="res://assets/sprites/tilesets/terrain_tile_set.tres" id="1_bqqt6"]
 [ext_resource type="PackedScene" uid="uid://d4bldso6tnsew" path="res://scenes/sound_button.tscn" id="1_l6cm7"]
+[ext_resource type="Script" uid="uid://cx2hmtee08v2e" path="res://scripts/main_menu.gd" id="1_wu84c"]
 [ext_resource type="Theme" uid="uid://c7jkub5lm1hl" path="res://assets/basic.tres" id="2_ekxnf"]
 
-[node name="MainMenu" type="Control" unique_id=709028664]
+[node name="MainMenu" type="Control" unique_id=709028664 node_paths=PackedStringArray("main_menu_buttons", "level_selection_buttons")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_wu84c")
+main_menu_buttons = NodePath("MainMenuButtons")
+level_selection_buttons = NodePath("LevelSelectionButtons")
 
 [node name="TileMap" type="TileMapLayer" parent="." unique_id=33430095]
 texture_filter = 1
@@ -20,7 +24,7 @@ scale = Vector2(6, 6)
 tile_map_data = PackedByteArray("AADt//f/AAAHAAEAAADt//j/AAAHAAEAAADt//n/AAAHAAUAAADt//r/AAAHAAUAAADt//v/AAAHAAUAAADt//z/AAAHAAUAAADu//f/AAAHAAEAAADu//j/AAAHAAEAAADu//n/AAAHAAUAAADu//r/AAAHAAUAAADu//v/AAAHAAUAAADu//z/AAAHAAUAAADv//f/AAAHAAEAAADv//j/AAAHAAEAAADv//n/AAAJAAUAAADv//r/AAAHAAUAAADv//v/AAAHAAUAAADv//z/AAAHAAUAAADw//f/AAAHAAEAAADw//j/AAAHAAEAAADw//n/AAAKAAUAAADw//r/AAAHAAUAAADw//v/AAAHAAUAAADw//z/AAAHAAUAAADx//f/AAAHAAEAAADx//j/AAAHAAEAAADx//n/AAAHAAUAAADx//r/AAAHAAUAAADx//v/AAAHAAUAAADx//z/AAAHAAUAAADy//f/AAAHAAEAAADy//j/AAAHAAEAAADy//n/AAAHAAUAAADy//r/AAAHAAUAAADy//v/AAAHAAUAAADy//z/AAAHAAUAAADz//f/AAAHAAEAAADz//j/AAAHAAEAAADz//n/AAAHAAUAAADz//r/AAAHAAUAAADz//v/AAAHAAUAAADz//z/AAAHAAUAAAD0//f/AAAHAAEAAAD0//j/AAAHAAEAAAD0//n/AAAHAAUAAAD0//r/AAAJAAQAAAD0//v/AAAJAAUAAAD0//z/AAAHAAUAAAD1//f/AAAHAAEAAAD1//j/AAAHAAEAAAD1//n/AAAHAAUAAAD1//r/AAAKAAQAAAD1//v/AAAKAAUAAAD1//z/AAAHAAUAAAD2//f/AAAHAAEAAAD2//j/AAAHAAEAAAD2//n/AAAHAAUAAAD2//r/AAAHAAUAAAD2//v/AAAHAAUAAAD2//z/AAAHAAUAAAD3//f/AAAHAAEAAAD3//j/AAAHAAEAAAD3//n/AAAHAAUAAAD3//r/AAAHAAUAAAD3//v/AAAHAAUAAAD3//z/AAAHAAUAAAD4//f/AAAHAAEAAAD4//j/AAAHAAEAAAD4//n/AAAHAAUAAAD4//r/AAAHAAUAAAD4//v/AAAHAAUAAAD4//z/AAAHAAUAAAD5//f/AAAHAAEAAAD5//j/AAAHAAEAAAD5//n/AAAHAAUAAAD5//r/AAAHAAUAAAD5//v/AAAHAAUAAAD5//z/AAAHAAUAAAD6//f/AAAHAAEAAAD6//j/AAAHAAEAAAD6//n/AAAHAAUAAAD6//r/AAAHAAUAAAD6//v/AAAHAAUAAAD6//z/AAAHAAUAAAD7//f/AAAHAAEAAAD7//j/AAAHAAEAAAD7//n/AAAHAAUAAAD7//r/AAAHAAUAAAD7//v/AAAJAAQAAAD7//z/AAAJAAUAAAD8//f/AAAHAAEAAAD8//j/AAAHAAEAAAD8//n/AAAHAAUAAAD8//r/AAAHAAUAAAD8//v/AAAKAAQAAAD8//z/AAAKAAUAAAD9//f/AAAHAAEAAAD9//j/AAAHAAEAAAD9//n/AAAHAAUAAAD9//r/AAAHAAUAAAD9//v/AAAHAAUAAAD9//z/AAAHAAUAAAD+//f/AAAHAAEAAAD+//j/AAAHAAEAAAD+//n/AAAHAAUAAAD+//r/AAAHAAUAAAD+//v/AAAHAAUAAAD+//z/AAAHAAUAAAD///f/AAAHAAEAAAD///j/AAAHAAEAAAD///n/AAAHAAUAAAD///r/AAAHAAUAAAD///v/AAAHAAUAAAD///z/AAAHAAUAAADt//3/AAAHAAUAAADt//7/AAAHAAUAAADu//3/AAAHAAUAAADu//7/AAAHAAUAAADv//3/AAAHAAUAAADv//7/AAAHAAUAAADw//3/AAAHAAUAAADw//7/AAAHAAUAAADx//3/AAAHAAUAAADx//7/AAAHAAUAAADy//3/AAAHAAUAAADy//7/AAAHAAUAAADz//3/AAAHAAUAAADz//7/AAAHAAUAAAD0//3/AAAHAAUAAAD0//7/AAAHAAUAAAD1//3/AAAHAAUAAAD1//7/AAAHAAUAAAD2//3/AAAHAAUAAAD2//7/AAAHAAUAAAD3//3/AAAHAAUAAAD3//7/AAAHAAUAAAD4//3/AAAHAAUAAAD4//7/AAAHAAUAAAD5//3/AAAHAAUAAAD5//7/AAAHAAUAAAD6//3/AAAHAAUAAAD6//7/AAAHAAUAAAD7//3/AAAHAAUAAAD7//7/AAAHAAUAAAD8//3/AAAHAAUAAAD8//7/AAAHAAUAAAD9//3/AAAHAAUAAAD9//7/AAAHAAUAAAD+//3/AAAHAAUAAAD+//7/AAAHAAUAAAD///3/AAAHAAUAAAD///7/AAAHAAUAAADt////AAAHAAkAAADt/wAAAAAHAAkAAADt/wEAAAAHAAkAAADt/wIAAAAHAAkAAADu////AAAHAAkAAADu/wAAAAAHAAkAAADu/wEAAAAHAAkAAADu/wIAAAAHAAkAAADv////AAAHAAkAAADv/wAAAAAHAAkAAADv/wEAAAAHAAkAAADv/wIAAAAHAAkAAADw////AAAHAAkAAADw/wAAAAAHAAkAAADw/wEAAAAHAAkAAADw/wIAAAAHAAkAAADx////AAAHAAkAAADx/wAAAAAHAAkAAADx/wEAAAAHAAkAAADx/wIAAAAHAAkAAADy////AAAHAAkAAADy/wAAAAAJAAgAAADy/wEAAAAJAAkAAADy/wIAAAAHAAkAAADz////AAAHAAkAAADz/wAAAAAKAAgAAADz/wEAAAAKAAkAAADz/wIAAAAHAAkAAAD0////AAAHAAkAAAD0/wAAAAAHAAkAAAD0/wEAAAAHAAkAAAD0/wIAAAAJAAgAAAD1////AAAHAAkAAAD1/wAAAAAHAAkAAAD1/wEAAAAHAAkAAAD1/wIAAAAKAAgAAAD2////AAAHAAkAAAD2/wAAAAAHAAkAAAD2/wEAAAAHAAkAAAD2/wIAAAAHAAkAAAD3////AAAHAAkAAAD3/wAAAAAHAAkAAAD3/wEAAAAHAAkAAAD3/wIAAAAHAAkAAAD4////AAAHAAkAAAD4/wAAAAAHAAkAAAD4/wEAAAAHAAkAAAD4/wIAAAAHAAkAAAD5////AAAHAAkAAAD5/wAAAAAJAAgAAAD5/wEAAAAJAAkAAAD5/wIAAAAHAAkAAAD6////AAAHAAkAAAD6/wAAAAAKAAgAAAD6/wEAAAAKAAkAAAD6/wIAAAAHAAkAAAD7////AAAHAAkAAAD7/wAAAAAHAAkAAAD7/wEAAAAHAAkAAAD7/wIAAAAHAAkAAAD8////AAAHAAkAAAD8/wAAAAAHAAkAAAD8/wEAAAAHAAkAAAD8/wIAAAAHAAkAAAD9////AAAHAAkAAAD9/wAAAAAHAAkAAAD9/wEAAAAHAAkAAAD9/wIAAAAHAAkAAAD+////AAAHAAkAAAD+/wAAAAAJAAgAAAD+/wEAAAAJAAkAAAD+/wIAAAAHAAkAAAD/////AAAHAAkAAAD//wAAAAAKAAgAAAD//wEAAAAKAAkAAAD//wIAAAAHAAkAAADq//n/AAAHAAUAAADq//r/AAAHAAUAAADq//v/AAAHAAUAAADq//z/AAAHAAUAAADq//3/AAAHAAUAAADq//7/AAAHAAUAAADr//n/AAAHAAUAAADr//r/AAAHAAUAAADr//v/AAAHAAUAAADr//z/AAAHAAUAAADr//3/AAAHAAUAAADr//7/AAAHAAUAAADs//n/AAAHAAUAAADs//r/AAAHAAUAAADs//v/AAAHAAUAAADs//z/AAAHAAUAAADs//3/AAAHAAUAAADs//7/AAAHAAUAAADq////AAAHAAkAAADq/wAAAAAHAAkAAADq/wEAAAAHAAkAAADq/wIAAAAHAAkAAADr////AAAHAAkAAADr/wAAAAAHAAkAAADr/wEAAAAHAAkAAADr/wIAAAAHAAkAAADs////AAAHAAkAAADs/wAAAAAHAAkAAADs/wEAAAAHAAkAAADs/wIAAAAHAAkAAADq//f/AAAHAAEAAADq//j/AAAHAAEAAADr//f/AAAHAAEAAADr//j/AAAHAAEAAADs//f/AAAHAAEAAADs//j/AAAHAAEAAADq/wMAAAAHAAkAAADr/wMAAAAHAAkAAADs/wMAAAAHAAkAAADt/wMAAAAHAAkAAADu/wMAAAAHAAkAAADv/wMAAAAHAAkAAADw/wMAAAAHAAkAAADx/wMAAAAHAAkAAADy/wMAAAAHAAkAAADz/wMAAAAHAAkAAAD0/wMAAAAHAAkAAAD1/wMAAAAHAAkAAAD2/wMAAAAHAAkAAAD3/wMAAAAHAAkAAAD4/wMAAAAHAAkAAAD5/wMAAAAHAAkAAAD6/wMAAAAHAAkAAAD7/wMAAAAHAAkAAAD8/wMAAAAHAAkAAAD9/wMAAAAHAAkAAAD+/wMAAAAHAAkAAAD//wMAAAAHAAkAAAA=")
 tile_set = ExtResource("1_bqqt6")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1692473322]
+[node name="MainMenuButtons" type="VBoxContainer" parent="." unique_id=1692473322]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -34,18 +38,53 @@ offset_bottom = 20.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="SoundButton" parent="VBoxContainer" unique_id=310435706 instance=ExtResource("1_l6cm7")]
+[node name="PlayButton" parent="MainMenuButtons" unique_id=310435706 instance=ExtResource("1_l6cm7")]
 custom_minimum_size = Vector2(500, 100)
 layout_mode = 2
 theme = ExtResource("2_ekxnf")
 text = "Play"
 autowrap_trim_flags = 0
-transfer = "res://scenes/levels/level_1.tscn"
 
-[node name="SoundButton2" parent="VBoxContainer" unique_id=449613381 instance=ExtResource("1_l6cm7")]
+[node name="SoundButton2" parent="MainMenuButtons" unique_id=449613381 instance=ExtResource("1_l6cm7")]
 visible = false
 custom_minimum_size = Vector2(500, 100)
 layout_mode = 2
 theme = ExtResource("2_ekxnf")
 text = "Settings"
 autowrap_trim_flags = 0
+
+[node name="LevelSelectionButtons" type="VBoxContainer" parent="." unique_id=721535686]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -80.0
+offset_top = -50.5
+offset_right = 80.0
+offset_bottom = 50.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_ekxnf")
+
+[node name="Lvl1Button" parent="LevelSelectionButtons" unique_id=789577592 instance=ExtResource("1_l6cm7")]
+custom_minimum_size = Vector2(500, 100)
+layout_mode = 2
+text = "Lvl 1"
+transfer = "res://scenes/levels/level_1.tscn"
+
+[node name="Lvl2Button" parent="LevelSelectionButtons" unique_id=1197475427 instance=ExtResource("1_l6cm7")]
+custom_minimum_size = Vector2(500, 100)
+layout_mode = 2
+text = "Lvl 2"
+transfer = "res://scenes/levels/level_3.tscn"
+
+[node name="Lvl3Button" parent="LevelSelectionButtons" unique_id=294265287 instance=ExtResource("1_l6cm7")]
+custom_minimum_size = Vector2(500, 100)
+layout_mode = 2
+text = "Lvl 3"
+transfer = "res://scenes/levels/level_2.tscn"
+
+[connection signal="pressed" from="MainMenuButtons/PlayButton" to="." method="_on_play_button_pressed"]

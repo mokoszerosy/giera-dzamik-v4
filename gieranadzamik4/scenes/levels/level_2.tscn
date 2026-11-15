@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://csdp0oxlcrt83" path="res://scenes/levels/base_level.tscn" id="1_g2h2n"]
 [ext_resource type="PackedScene" uid="uid://ch0wqvmo3e4y" path="res://scenes/obstacles/platform.tscn" id="2_ra442"]
 [ext_resource type="PackedScene" uid="uid://bub8jl24js3la" path="res://scenes/obstacles/puff_ball.tscn" id="3_ra442"]
+[ext_resource type="PackedScene" uid="uid://yhlottcg7jsj" path="res://scenes/main_menu.tscn" id="4_fiq81"]
 
 [node name="Main" unique_id=1953884599 instance=ExtResource("1_g2h2n")]
 
@@ -71,7 +72,10 @@ position = Vector2(1824, 768)
 position = Vector2(1114, -3831)
 
 [node name="FinishGroup" parent="." index="17" unique_id=326366397]
-position = Vector2(1113, -4138)
+position = Vector2(1113, -4135)
+
+[node name="FinishDoorLeft" parent="FinishGroup" index="0" unique_id=1602043082]
+transfer = ExtResource("4_fiq81")
 
 [node name="FinishLabel" parent="FinishGroup" index="2" unique_id=1206983600]
 offset_left = -643.0
