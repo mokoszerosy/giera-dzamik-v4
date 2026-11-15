@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://yhlottcg7jsj"]
 
 [ext_resource type="PackedScene" uid="uid://d4bldso6tnsew" path="res://scenes/sound_button.tscn" id="1_l6cm7"]
+[ext_resource type="Theme" uid="uid://c7jkub5lm1hl" path="res://assets/basic.tres" id="2_ekxnf"]
 
 [node name="MainMenu" type="Control" unique_id=709028664]
 layout_mode = 3
@@ -25,10 +26,16 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="SoundButton" parent="VBoxContainer" unique_id=310435706 instance=ExtResource("1_l6cm7")]
+custom_minimum_size = Vector2(500, 100)
 layout_mode = 2
+theme = ExtResource("2_ekxnf")
 text = "Play"
+autowrap_trim_flags = 0
 transfer = "res://scenes/levels/level_1.tscn"
 
 [node name="SoundButton2" parent="VBoxContainer" unique_id=449613381 instance=ExtResource("1_l6cm7")]
+custom_minimum_size = Vector2(500, 100)
 layout_mode = 2
+theme = ExtResource("2_ekxnf")
 text = "Settings"
+autowrap_trim_flags = 0
