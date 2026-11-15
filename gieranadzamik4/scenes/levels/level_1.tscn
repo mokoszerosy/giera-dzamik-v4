@@ -4,8 +4,9 @@
 [ext_resource type="PackedScene" uid="uid://ch0wqvmo3e4y" path="res://scenes/obstacles/platform.tscn" id="2_6iamk"]
 [ext_resource type="PackedScene" uid="uid://bub8jl24js3la" path="res://scenes/obstacles/puff_ball.tscn" id="3_nsrm0"]
 [ext_resource type="PackedScene" uid="uid://qqf6ul25ercc" path="res://scenes/levels/level_2.tscn" id="4_x42e6"]
+[ext_resource type="Texture2D" uid="uid://b74fxqfa2w3uo" path="res://assets/sprites/misc/arrowdownpng.jpg" id="5_6761a"]
 
-[node name="Main" unique_id=1953884599 instance=ExtResource("1_ksju7")]
+[node name="Main2" unique_id=1953884599 instance=ExtResource("1_ksju7")]
 
 [node name="Platform" parent="." index="2" unique_id=9970019 instance=ExtResource("2_6iamk")]
 position = Vector2(1536, 864.00006)
@@ -80,3 +81,9 @@ transfer = ExtResource("4_x42e6")
 position = Vector2(1920, -2400)
 width = 2
 one_way = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." index="21" unique_id=1860824041]
+texture_filter = 1
+position = Vector2(2016.0001, -1987.0001)
+scale = Vector2(0.14765614, 0.2921875)
+texture = ExtResource("5_6761a")
