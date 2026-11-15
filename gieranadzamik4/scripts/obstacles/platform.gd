@@ -129,7 +129,7 @@ func _disable_self():
 func _enable_self():
 	if player_nearby:
 		return
-	_play_anim_on_all("idle")
+	_play_anim_on_all("restoring")
 	collision.set_deferred("disabled", false)
 	detector_collision.set_deferred("disabled", false)
 
@@ -142,9 +142,8 @@ func _on_sprite_animation_finished() -> void:
 	match previous_anim:
 		"breaking":
 			_play_anim_on_all("cooldown")
-			
-		
-		
+		"restoring":
+			_play_anim_on_all("idle")
 			
 func _play_anim_on_all(anim: String) -> void:
 	for tile in tiles:

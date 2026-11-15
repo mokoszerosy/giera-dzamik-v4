@@ -82,4 +82,27 @@ animations = [{
 "loop": 1,
 "name": &"playerstanding",
 "speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_dop8l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_mt61d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xxq45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_bsxn6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_ucjej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_v7h5t")
+}],
+"loop": 0,
+"name": &"restoring",
+"speed": 24.0
 }]
