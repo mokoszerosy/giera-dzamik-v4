@@ -20,9 +20,8 @@ func _physics_process(delta: float) -> void:
 		velocity.y += gravity * delta
 
 	apply_movement_inputs()
-	var old_velocity: Vector2 = velocity
 	move_and_slide()
-	do_bounces(old_velocity)
+	do_bounces()
 	
 	
 func apply_movement_inputs():
@@ -59,7 +58,7 @@ func apply_movement_inputs():
 		velocity.x = move_toward(velocity.x, 0, deceleration_speed)
 		anim_sprite.play("idle")
 
-func do_bounces(old_velocity: Vector2):
+func do_bounces():
 	var normal = Vector2()
 	
 	var collisions: Array[Object] = []
@@ -92,8 +91,7 @@ func do_bounces(old_velocity: Vector2):
 	if (!normal.is_zero_approx()):
 		var bounce_distance: float = abs(last_floor_height - global_position.y)
 		var bounce: float = bounce_distance + Globals.TILE_SIZE + Globals.LEVEL_STEP * int(first_time)
-		var direction = old_velocity.normalized().bounce(normal)
-		velocity = direction *  sqrt(bounce * 2 * gravity)
+		velocity = normal *  sqrt(bounce * 2 * gravity)
 		Sound.play_bounce(max(bounce_distance/500, 0.5))
 		move_and_slide()
 	
