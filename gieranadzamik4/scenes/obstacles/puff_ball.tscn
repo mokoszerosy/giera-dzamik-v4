@@ -146,7 +146,12 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("8_6mo5w")
+}],
+"loop": 0,
+"name": &"boom_in",
+"speed": 12.0
 }, {
+"frames": [{
 "duration": 1.0,
 "texture": ExtResource("9_bvih8")
 }, {
@@ -185,7 +190,12 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("21_rwdy7")
+}],
+"loop": 2,
+"name": &"boom_loop",
+"speed": 12.0
 }, {
+"frames": [{
 "duration": 1.0,
 "texture": ExtResource("22_5l1fj")
 }, {
@@ -202,7 +212,7 @@ animations = [{
 "texture": ExtResource("26_ql8jv")
 }],
 "loop": 0,
-"name": &"bubbleboom",
+"name": &"boom_out",
 "speed": 12.0
 }, {
 "frames": [{
@@ -511,7 +521,7 @@ animation_sprite = NodePath("Sprite2D")
 position = Vector2(-0.50000143, 2.3841858e-06)
 scale = Vector2(0.708, 0.716)
 sprite_frames = SubResource("SpriteFrames_g4v7s")
-animation = &"bubbleboom"
+animation = &"boom_loop"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=886671427]
