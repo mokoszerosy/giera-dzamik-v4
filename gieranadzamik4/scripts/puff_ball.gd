@@ -42,6 +42,8 @@ func _on_sprite_2d_animation_finished() -> void:
 		"boom_loop":
 			if not player_nearby:
 				_enable_self()
+			else:
+				animation_sprite.play("boom_loop")
 		"boom_out":
 			animation_sprite.play("idle")
 	
