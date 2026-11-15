@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://csdp0oxlcrt83" path="res://scenes/levels/base_level.tscn" id="1_02w4s"]
 [ext_resource type="PackedScene" uid="uid://ch0wqvmo3e4y" path="res://scenes/obstacles/platform.tscn" id="2_s1j21"]
+[ext_resource type="PackedScene" uid="uid://bub8jl24js3la" path="res://scenes/obstacles/puff_ball.tscn" id="3_0ljxa"]
 
 [node name="Main" unique_id=1953884599 instance=ExtResource("1_02w4s")]
 
@@ -11,24 +12,71 @@ position = Vector2(1728, 768)
 [node name="FinishActivationArea" parent="." index="3" unique_id=2042148574]
 position = Vector2(0, -4224)
 
+[node name="CollisionShape2D" parent="FinishActivationArea" index="0" unique_id=1287311650]
+position = Vector2(1104, 768)
+
 [node name="FinishGroup" parent="." index="4" unique_id=326366397]
 position = Vector2(1113, -3791)
 
 [node name="Platform" parent="." index="5" unique_id=9970019 instance=ExtResource("2_s1j21")]
-position = Vector2(288, 192)
-width = 4
+position = Vector2(864, -1152)
+width = 8
 one_way = true
 
 [node name="Platform2" parent="." index="6" unique_id=149944922 instance=ExtResource("2_s1j21")]
 position = Vector2(1632, 864)
 width = 2
 
-[node name="Platform3" parent="." index="7" unique_id=1378351116 instance=ExtResource("2_s1j21")]
-position = Vector2(1152, 672)
+[node name="Platform4" parent="." index="7" unique_id=966225600 instance=ExtResource("2_s1j21")]
+position = Vector2(1632, 480)
 
-[node name="Platform4" parent="." index="8" unique_id=966225600 instance=ExtResource("2_s1j21")]
-position = Vector2(768, 480)
+[node name="Platform5" parent="." index="8" unique_id=1580269263 instance=ExtResource("2_s1j21")]
+position = Vector2(768, 288)
 
-[node name="Platform5" parent="." index="9" unique_id=1580269263 instance=ExtResource("2_s1j21")]
-position = Vector2(288, -96)
+[node name="Platform6" parent="." index="9" unique_id=1354456193 instance=ExtResource("2_s1j21")]
+position = Vector2(1440, -192)
+width = 3
+
+[node name="Platform7" parent="." index="10" unique_id=2079297807 instance=ExtResource("2_s1j21")]
+position = Vector2(1152, -480)
+width = 3
+one_way = true
+
+[node name="PuffBall" parent="." index="11" unique_id=1571602283 instance=ExtResource("3_0ljxa")]
+position = Vector2(1197, 0)
+
+[node name="Platform8" parent="." index="12" unique_id=1250445343 instance=ExtResource("2_s1j21")]
+position = Vector2(1632, -1440)
 width = 4
+one_way = true
+
+[node name="Platform9" parent="." index="13" unique_id=173634046 instance=ExtResource("2_s1j21")]
+position = Vector2(864, -1632)
+width = 7
+
+[node name="Platform10" parent="." index="14" unique_id=359770101 instance=ExtResource("2_s1j21")]
+position = Vector2(2016, 672)
+
+[node name="PuffBall3" parent="." index="15" unique_id=46971363 instance=ExtResource("3_0ljxa")]
+position = Vector2(480, -1824)
+
+[node name="Platform11" parent="." index="16" unique_id=1739636398 instance=ExtResource("2_s1j21")]
+position = Vector2(480, -2304)
+width = 4
+one_way = true
+
+[node name="Platform12" parent="." index="17" unique_id=77275681 instance=ExtResource("2_s1j21")]
+position = Vector2(0, -3264)
+width = 8
+
+[node name="Platform13" parent="." index="18" unique_id=351050987 instance=ExtResource("2_s1j21")]
+position = Vector2(1056, -3264)
+width = 10
+
+[node name="Platform14" parent="." index="19" unique_id=607652117 instance=ExtResource("2_s1j21")]
+position = Vector2(2016, -3264)
+
+[node name="Platform15" parent="." index="20" unique_id=1689592480 instance=ExtResource("2_s1j21")]
+position = Vector2(768, -3264)
+width = 3
+one_way = true
