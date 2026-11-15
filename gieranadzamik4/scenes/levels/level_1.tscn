@@ -12,7 +12,7 @@ position = Vector2(1536, 864.00006)
 width = 4
 
 [node name="Platform2" parent="." index="3" unique_id=544285141 instance=ExtResource("2_6iamk")]
-position = Vector2(576, 768)
+position = Vector2(528, 768)
 width = 4
 
 [node name="Platform3" parent="." index="4" unique_id=2140045463 instance=ExtResource("2_6iamk")]
@@ -20,15 +20,15 @@ position = Vector2(1536, 576)
 width = 2
 
 [node name="Platform5" parent="." index="5" unique_id=1464969992 instance=ExtResource("2_6iamk")]
-position = Vector2(864, 384)
+position = Vector2(721.00006, 383)
 width = 2
 
 [node name="Platform6" parent="." index="6" unique_id=1718461071 instance=ExtResource("2_6iamk")]
-position = Vector2(480, 96)
+position = Vector2(474, 95)
 width = 4
 
 [node name="Platform8" parent="." index="7" unique_id=1201461312 instance=ExtResource("2_6iamk")]
-position = Vector2(1152, -480)
+position = Vector2(1200, -480)
 width = 3
 
 [node name="Platform11" parent="." index="8" unique_id=691514647 instance=ExtResource("2_6iamk")]
@@ -36,7 +36,7 @@ position = Vector2(384, -192)
 width = 5
 
 [node name="Platform12" parent="." index="9" unique_id=459776253 instance=ExtResource("2_6iamk")]
-position = Vector2(672, -1056)
+position = Vector2(522, -1056)
 width = 3
 
 [node name="Platform13" parent="." index="10" unique_id=1101787628 instance=ExtResource("2_6iamk")]
@@ -48,7 +48,7 @@ position = Vector2(1344, -2112)
 width = 5
 
 [node name="World#PuffBall2" parent="." index="12" unique_id=115226323 instance=ExtResource("3_nsrm0")]
-position = Vector2(1056, -768)
+position = Vector2(1161, -768)
 
 [node name="World#PuffBall3" parent="." index="13" unique_id=1566678123 instance=ExtResource("3_nsrm0")]
 position = Vector2(288, -1344)
