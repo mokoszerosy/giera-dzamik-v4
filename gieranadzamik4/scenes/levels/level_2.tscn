@@ -80,7 +80,7 @@ position = Vector2(1113, -4138)
 metadata/_edit_use_anchors_ = true
 
 [node name="PuffBall4" parent="." index="18" unique_id=964699544 instance=ExtResource("3_ra442")]
-position = Vector2(1248, 192)
+position = Vector2(1344, 192)
 
 [node name="PuffBall5" parent="." index="19" unique_id=1571602283 instance=ExtResource("3_ra442")]
 position = Vector2(864, -1056)
