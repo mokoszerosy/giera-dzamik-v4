@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://b4nt28djveouf"]
+
+[ext_resource type="PackedScene" uid="uid://csdp0oxlcrt83" path="res://scenes/levels/base_level.tscn" id="1_02w4s"]
+[ext_resource type="PackedScene" uid="uid://ch0wqvmo3e4y" path="res://scenes/obstacles/platform.tscn" id="2_s1j21"]
+
+[node name="Main" unique_id=1953884599 instance=ExtResource("1_02w4s")]
+
+[node name="PlayerSpawnPoint" parent="." index="2" unique_id=630531347]
+position = Vector2(960, 768)
+
+[node name="FinishActivationArea" parent="." index="3" unique_id=2042148574]
+position = Vector2(0, -4224)
+
+[node name="FinishGroup" parent="." index="4" unique_id=326366397]
+position = Vector2(1113, -3791)
+
+[node name="Platform" parent="." index="5" unique_id=9970019 instance=ExtResource("2_s1j21")]
+position = Vector2(864, 864)
+width = 6
+
+[node name="Platform2" parent="." index="6" unique_id=2029924878 instance=ExtResource("2_s1j21")]
+position = Vector2(1824, 672)
+width = 3

@@ -11,15 +11,15 @@ tile_map_data = PackedByteArray("AAAQAL//AAASAAUAAAAQAMD/AAASAAUAAAAQAMH/AAASAAU
 
 [node name="Platform" parent="." index="2" unique_id=9970019 instance=ExtResource("2_ra442")]
 position = Vector2(1632, 864)
-width = 5
+width = 3
 
 [node name="Platform15" parent="." index="3" unique_id=228066099 instance=ExtResource("2_ra442")]
-position = Vector2(96, -2592)
-width = 4
+position = Vector2(96, -3648)
+width = 9
 
 [node name="Platform16" parent="." index="4" unique_id=1764703133 instance=ExtResource("2_ra442")]
-position = Vector2(768, -2592)
-width = 9
+position = Vector2(1344, -3648)
+width = 8
 
 [node name="Platform2" parent="." index="5" unique_id=1117191071 instance=ExtResource("2_ra442")]
 position = Vector2(1056, 672)
@@ -32,53 +32,73 @@ width = 3
 disappearing = true
 
 [node name="Platform4" parent="." index="7" unique_id=463211458 instance=ExtResource("2_ra442")]
-position = Vector2(1056, 0)
-width = 2
+position = Vector2(1536, 0)
+width = 3
 disappearing = true
 
 [node name="Platform5" parent="." index="8" unique_id=1268725761 instance=ExtResource("2_ra442")]
-position = Vector2(96, -192)
+position = Vector2(480, -96)
 width = 2
 disappearing = true
 
 [node name="PuffBall2" parent="." index="9" unique_id=2003756211 instance=ExtResource("3_ra442")]
-position = Vector2(384, -96)
+position = Vector2(480, -384)
 
 [node name="Platform6" parent="." index="10" unique_id=798403838 instance=ExtResource("2_ra442")]
-position = Vector2(576, -672)
+position = Vector2(768, -768)
+width = 10
 disappearing = true
 
 [node name="Platform7" parent="." index="11" unique_id=692468269 instance=ExtResource("2_ra442")]
-position = Vector2(1344, -960)
+position = Vector2(1344, -1056)
 width = 5
-
-[node name="Platform8" parent="." index="12" unique_id=108003991 instance=ExtResource("2_ra442")]
-position = Vector2(960, -1152)
-width = 2
-
-[node name="Platform9" parent="." index="13" unique_id=840953447 instance=ExtResource("2_ra442")]
-position = Vector2(288, -1728)
-width = 3
-
-[node name="PuffBall3" parent="." index="14" unique_id=808776571 instance=ExtResource("3_ra442")]
-position = Vector2(672, -1440)
-
-[node name="Platform17" parent="." index="15" unique_id=386956733 instance=ExtResource("2_ra442")]
-position = Vector2(1632, -2592)
-width = 5
-
-[node name="PlayerSpawnPoint" parent="." index="16" unique_id=630531347]
-position = Vector2(1920, 768)
-
-[node name="CollisionShape2D" parent="FinishActivationArea" parent_id_path=PackedInt32Array(2042148574) index="0" unique_id=1287311650]
-position = Vector2(1114, -2849)
-
-[node name="Platform10" parent="." index="18" unique_id=1653411151 instance=ExtResource("2_ra442")]
-position = Vector2(768, -480)
 disappearing = true
 
-[node name="FinishGroup" parent="." index="19" unique_id=326366397]
-position = Vector2(1113, -3156)
+[node name="Platform9" parent="." index="12" unique_id=840953447 instance=ExtResource("2_ra442")]
+position = Vector2(1056, -1824)
+width = 3
+disappearing = true
 
-[node name="PuffBall4" parent="." index="20" unique_id=964699544 instance=ExtResource("3_ra442")]
-position = Vector2(1440, 96)
+[node name="PuffBall3" parent="." index="13" unique_id=808776571 instance=ExtResource("3_ra442")]
+position = Vector2(1152, -1056)
+
+[node name="Platform17" parent="." index="14" unique_id=386956733 instance=ExtResource("2_ra442")]
+position = Vector2(960, -3648)
+width = 4
+one_way = true
+
+[node name="PlayerSpawnPoint" parent="." index="15" unique_id=630531347]
+position = Vector2(1824, 768)
+
+[node name="CollisionShape2D" parent="FinishActivationArea" parent_id_path=PackedInt32Array(2042148574) index="0" unique_id=1287311650]
+position = Vector2(1114, -3831)
+
+[node name="FinishGroup" parent="." index="17" unique_id=326366397]
+position = Vector2(1113, -4138)
+
+[node name="FinishLabel" parent="FinishGroup" index="2" unique_id=1206983600]
+metadata/_edit_use_anchors_ = true
+
+[node name="PuffBall4" parent="." index="18" unique_id=964699544 instance=ExtResource("3_ra442")]
+position = Vector2(1248, 192)
+
+[node name="PuffBall5" parent="." index="19" unique_id=1571602283 instance=ExtResource("3_ra442")]
+position = Vector2(864, -1056)
+
+[node name="PuffBall6" parent="." index="20" unique_id=206680007 instance=ExtResource("3_ra442")]
+position = Vector2(864, -1344)
+
+[node name="PuffBall7" parent="." index="21" unique_id=229532815 instance=ExtResource("3_ra442")]
+position = Vector2(1152, -2304)
+
+[node name="PuffBall8" parent="." index="22" unique_id=1411981976 instance=ExtResource("3_ra442")]
+position = Vector2(960, -2592)
+
+[node name="PuffBall9" parent="." index="23" unique_id=660142876 instance=ExtResource("3_ra442")]
+position = Vector2(1152, -2880)
+
+[node name="PuffBall10" parent="." index="24" unique_id=417439894 instance=ExtResource("3_ra442")]
+position = Vector2(1344, -3168)
+
+[node name="PuffBall11" parent="." index="25" unique_id=93544755 instance=ExtResource("3_ra442")]
+position = Vector2(1152, -3456)
