@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://b4nt28djveouf"]
 
 [ext_resource type="PackedScene" uid="uid://csdp0oxlcrt83" path="res://scenes/levels/base_level.tscn" id="1_02w4s"]
-[ext_resource type="PackedScene" uid="uid://qqf6ul25ercc" path="res://scenes/levels/level_2.tscn" id="2_0qepi"]
 [ext_resource type="PackedScene" uid="uid://ch0wqvmo3e4y" path="res://scenes/obstacles/platform.tscn" id="2_s1j21"]
 [ext_resource type="PackedScene" uid="uid://bub8jl24js3la" path="res://scenes/obstacles/puff_ball.tscn" id="3_0ljxa"]
 
