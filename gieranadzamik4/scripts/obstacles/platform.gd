@@ -11,6 +11,7 @@ const BLOCKER_MARGIN: float = 2.0
 @onready var collision: CollisionShape2D = $Collision
 @onready var detector_collision: CollisionShape2D = $PlayerDetector/DetectorCollision
 @onready var blocker_collision: CollisionShape2D = $SpawnBlocker/BlockerCollision
+@onready var safety_timer: Timer = $SafetyTimer
 @onready var destroy_timer: Timer = $DestroyTimer
 @onready var restore_timer: Timer = $RestoreTimer
 var shake_magnitude = 1.4
@@ -78,6 +79,8 @@ func _on_player_detector_body_entered(body: Node2D) -> void:
 	if not restore_timer.is_stopped():
 		return
 	has_player = true
+	safety_timer.start()
+	
 	if destroy_timer.is_stopped():
 		Sound.play_falling_rocks_ambient()
 		destroy_timer.start()
@@ -86,8 +89,9 @@ func _on_player_detector_body_exited(body: Node2D) -> void:
 	if not body is Player or not disappearing:
 		return
 	has_player = false
-	destroy_timer.stop()
-	_disable_self()
+	if safety_timer.is_stopped():
+		destroy_timer.stop()
+		_disable_self()
 		
 func _on_spawn_blocker_body_entered(body: Node2D) -> void:
 	if not body is Player:

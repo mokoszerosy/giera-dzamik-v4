@@ -16,6 +16,10 @@ size = Vector2(16, 4.333333)
 scale = Vector2(6, 6)
 script = ExtResource("1_5kn1w")
 
+[node name="SafetyTimer" type="Timer" parent="." unique_id=722239698]
+wait_time = 0.05
+one_shot = true
+
 [node name="RestoreTimer" type="Timer" parent="." unique_id=1165719031]
 wait_time = 4.0
 one_shot = true
