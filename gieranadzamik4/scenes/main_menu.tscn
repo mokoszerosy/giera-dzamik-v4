@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://d4bldso6tnsew" path="res://scenes/sound_button.tscn" id="1_l6cm7"]
 [ext_resource type="Script" uid="uid://cx2hmtee08v2e" path="res://scripts/main_menu.gd" id="1_wu84c"]
 [ext_resource type="Theme" uid="uid://c7jkub5lm1hl" path="res://assets/basic.tres" id="2_ekxnf"]
+[ext_resource type="Texture2D" uid="uid://bmgst2ml7f0py" path="res://scenes/levels/tytul.png" id="5_8ln24"]
 
 [node name="MainMenu" type="Control" unique_id=709028664 node_paths=PackedStringArray("main_menu_buttons", "level_selection_buttons")]
 layout_mode = 3
@@ -31,12 +32,17 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -20.0
-offset_top = -20.0
-offset_right = 20.0
-offset_bottom = 20.0
+offset_left = -259.0
+offset_top = 25.0
+offset_right = 241.0
+offset_bottom = 125.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="MainMenuButtons" unique_id=156798536]
+position = Vector2(246, -226)
+scale = Vector2(0.56020623, 0.6885464)
+texture = ExtResource("5_8ln24")
 
 [node name="PlayButton" parent="MainMenuButtons" unique_id=310435706 instance=ExtResource("1_l6cm7")]
 custom_minimum_size = Vector2(500, 100)
